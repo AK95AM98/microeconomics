@@ -6,6 +6,9 @@ site_url: 'https://AK95AM98.github.io/microeconomics/'
 repo_url: 'https://github.com/AK95AM98/microeconomics'
 edit_uri: 'blob/main/docs'
 
+hooks:
+  - plugins/social_override.py
+
 nav:
   - Home: index.md
   - Course Description: course-description.md
@@ -33,6 +36,9 @@ nav:
     - sims/index.md
   - Prompts:
     - prompts/index.md
+  - About: about.md
+  - Contact: contact.md
+  - License: license.md
 
 theme:
   name: material
@@ -84,3 +90,6 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
+
+extra_css:
+  - css/extra.css

@@ -1,4 +1,14 @@
+---
+title: 'Microeconomics: An Intelligent Textbook'
+description: 'An intelligent textbook for Microeconomics. Covers supply and demand, consumer theory, market structures, game theory, market failures, behavioral economics, and international trade with interactive simulations.'
+image: img/cover.png
+---
+
 # Microeconomics: An Intelligent Textbook
+
+<figure markdown>
+  ![Microeconomics: An Intelligent Textbook cover](./img/cover.png){ width="100%" }
+</figure>
 
 **Prof. Sharat Batra** · University of Minnesota · [batra052@umn.edu](mailto:batra052@umn.edu)
 
@@ -25,6 +35,9 @@ This textbook covers the core principles of microeconomics through clear explana
 | [Learning Graph](learning-graph/index.md) | Visual map of concept dependencies |
 | [MicroSims](sims/index.md) | Interactive simulations for exploring economic models |
 | [Prompts](prompts/index.md) | AI-assisted study prompts and discussion questions |
+| [About](about.md) | Audience, how to use this book, and how to cite it |
+| [Contact](contact.md) | How to reach the author with feedback or questions |
+| [License](license.md) | Terms of use (CC BY-NC-SA 4.0) |
 
 ## Chapter Overview
 
@@ -50,4 +63,4 @@ This textbook covers the core principles of microeconomics through clear explana
 ---
 
 !!! note "Open Educational Resource"
-    This textbook is freely available under a Creative Commons license. Feedback and contributions are welcome via the [GitHub repository](https://github.com/AK95AM98/microeconomics).
+    This textbook is freely available under a [CC BY-NC-SA 4.0 license](license.md). Feedback and contributions are welcome via the [GitHub repository](https://github.com/AK95AM98/microeconomics) or the [Contact](contact.md) page.
