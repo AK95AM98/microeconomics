@@ -1,0 +1,86 @@
+site_name: Microeconomics - An Intelligent Textbook
+site_description: 'An intelligent textbook for Microeconomics. Covers supply and demand, consumer theory, market structures, game theory, market failures, behavioral economics, and international trade with interactive simulations.'
+site_author: 'Sharat B'
+repo_name: 'GitHub Repo'
+site_url: 'https://AK95AM98.github.io/microeconomics/'
+repo_url: 'https://github.com/AK95AM98/microeconomics'
+edit_uri: 'blob/main/docs'
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Chapters:
+    - chapters/index.md
+    - 1. Introduction to Microeconomics: chapters/01-introduction-to-microeconomics/index.md
+    - 2. Supply and Demand: chapters/02-supply-and-demand/index.md
+    - 3. Elasticity: chapters/03-elasticity/index.md
+    - 4. Consumer Theory: chapters/04-consumer-theory/index.md
+    - 5. Production and Costs: chapters/05-production-and-costs/index.md
+    - 6. Perfect Competition: chapters/06-perfect-competition/index.md
+    - 7. Monopoly: chapters/07-monopoly/index.md
+    - 8. Monopolistic Competition: chapters/08-monopolistic-competition/index.md
+    - 9. Oligopoly: chapters/09-oligopoly/index.md
+    - 10. Game Theory: chapters/10-game-theory/index.md
+    - 11. Factor Markets: chapters/11-factor-markets/index.md
+    - 12. Market Failures: chapters/12-market-failures/index.md
+    - 13. Externalities and Public Goods: chapters/13-externalities-and-public-goods/index.md
+    - 14. Information Economics: chapters/14-information-economics/index.md
+    - 15. Behavioral Economics: chapters/15-behavioral-economics/index.md
+    - 16. International Trade: chapters/16-international-trade/index.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+  - MicroSims:
+    - sims/index.md
+  - Prompts:
+    - prompts/index.md
+
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  custom_dir: docs
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.expand
+    - toc.integrate
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js
