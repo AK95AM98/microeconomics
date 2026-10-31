@@ -1,3 +1,9 @@
+---
+title: Course Description for Course ECON 1101: Principles of Microeconomics
+description: A detailed course description for ECON 1101: Principles of Microeconomics including overview, topics covered and learning objectives in the format of the 2001 Bloom Taxonomy
+quality_score: 40
+---
+
 # Course Description
 
 ## ECON 1101: Principles of Microeconomics
