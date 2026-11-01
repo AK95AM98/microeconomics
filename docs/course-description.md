@@ -1,7 +1,7 @@
 ---
 title: Course Description for Course ECON 1101: Principles of Microeconomics
 description: A detailed course description for ECON 1101: Principles of Microeconomics including overview, topics covered and learning objectives in the format of the 2001 Bloom Taxonomy
-quality_score: 40
+quality_score: 99
 ---
 
 # Course Description
@@ -18,13 +18,90 @@ quality_score: 40
 
 This course introduces the fundamental principles of microeconomics — the study of how individuals, households, and firms make decisions in the face of scarcity, and how these decisions interact through markets. Students will develop analytical tools to understand resource allocation, price determination, market structure, and government policy.
 
-By the end of the course, students will be able to:
+## Target Audience
 
-- Apply the core economic concepts of scarcity, opportunity cost, and marginal analysis
-- Model supply, demand, and market equilibrium graphically and mathematically
-- Analyze how different market structures affect prices, output, and social welfare
-- Evaluate the causes and consequences of market failures
-- Apply microeconomic reasoning to real-world policy questions
+College undergraduates, typically first- or second-year students, with no
+prior economics coursework required.
+
+## Topics Not Covered
+
+This course is an introduction to **microeconomics** — the behavior of
+individual households, firms, and markets. The following related topics are
+explicitly out of scope and are left to other courses:
+
+- Macroeconomics (GDP, inflation, unemployment, monetary and fiscal policy)
+- Econometrics and statistical/empirical methods
+- Advanced general equilibrium theory and formal welfare theorems
+- International finance and exchange-rate economics
+- Financial markets and asset pricing
+
+## Learning Outcomes
+
+After this course, students will be able to demonstrate competencies at each
+level of the 2001 Bloom's Taxonomy:
+
+### Remember
+
+- Define key terms including opportunity cost, marginal utility, price
+  elasticity, consumer and producer surplus, deadweight loss, and Nash
+  equilibrium.
+- Recall the standard assumptions of perfect competition, monopoly,
+  monopolistic competition, and oligopoly.
+- Identify the major types of market failure (externalities, public goods,
+  asymmetric information) and the standard policy tools used to address each.
+
+### Understand
+
+- Explain how changes in supply or demand shift market equilibrium and
+  affect price and quantity.
+- Describe the distinguishing features of perfect competition, monopoly,
+  monopolistic competition, and oligopoly, and how each determines price
+  and output.
+- Summarize how asymmetric information creates adverse selection and moral
+  hazard problems in markets.
+
+### Apply
+
+- Apply the core economic concepts of scarcity, opportunity cost, and
+  marginal analysis to everyday and business decisions.
+- Model supply, demand, and market equilibrium graphically and
+  mathematically, including the effects of taxes, subsidies, and price
+  controls.
+- Apply game-theoretic reasoning (dominant strategies, Nash equilibrium) to
+  predict outcomes in oligopoly and other strategic settings.
+- Apply marginal analysis to a firm's factor-market hiring decisions (e.g.,
+  labor demand under different market structures).
+
+### Analyze
+
+- Analyze how different market structures affect prices, output, and
+  social welfare.
+- Analyze how price, income, and cross-price elasticity affect the
+  incidence of taxes and subsidies between buyers and sellers.
+- Analyze how asymmetric information (adverse selection, moral hazard,
+  signaling) distorts market outcomes relative to the competitive benchmark.
+
+### Evaluate
+
+- Evaluate the causes and consequences of market failures, including
+  externalities, public goods, and imperfect information.
+- Evaluate policy trade-offs such as tariffs versus free trade, and
+  Pigouvian taxes versus cap-and-trade, using efficiency and equity
+  criteria.
+- Evaluate the welfare implications of different forms of price
+  discrimination and market power.
+
+### Create
+
+- Design and justify a policy proposal that addresses a specific market
+  failure (e.g., a negative externality or a public good), using
+  supply-and-demand and welfare analysis to support the recommendation.
+- Construct an original numerical or graphical model of a market scenario
+  (e.g., a new tax, a price ceiling, or an oligopoly pricing game) and
+  justify the assumptions used.
+- Create an explainer (short report, infographic, or presentation) that
+  teaches a real-world market scenario to a non-expert audience using at
+  least three microeconomic models or frameworks from the course.
 
 ---
 
