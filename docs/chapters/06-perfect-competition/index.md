@@ -90,6 +90,7 @@ In the short run, a firm has already incurred its fixed costs regardless of whet
 **The Shutdown Rule:** A firm should continue to produce in the short run as long as the price it receives covers average variable cost:
 
 $$P^* \geq AVC_{\min} \implies \text{produce } Q \text{ where } P^*=MC$$
+
 $$P^* < AVC_{\min} \implies \text{shut down (produce } Q=0\text{)}$$
 
 !!! mascot-warning "Shutting Down Isn't Going Out of Business"

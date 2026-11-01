@@ -74,7 +74,9 @@ Marginal revenue: $TR = PQ = 8Q - 0.02Q^2 \Rightarrow MR = 8 - 0.04Q$.
 Set $MR = MC$:
 
 $$8 - 0.04Q = 2$$
+
 $$6 = 0.04Q$$
+
 $$Q = 150$$
 
 Price: $P = 8 - 0.02(150) = 8 - 3 = \$5$.
@@ -109,6 +111,7 @@ Short-run profits like the one above are a signal. Because entry is free in mono
 In long-run equilibrium, two conditions hold simultaneously:
 
 $$MR = MC \quad \text{(profit-maximizing quantity)}$$
+
 $$P = ATC \quad \text{(zero economic profit)}$$
 
 Graphically, this means the firm's downward-sloping demand curve is **tangent** to its $ATC$ curve at the profit-maximizing quantity — the demand curve touches $ATC$ at exactly one point, from above, without crossing it. If demand sat above $ATC$ at the best quantity, profit would still be positive and more entry would occur; if it sat entirely below, firms would be exiting.

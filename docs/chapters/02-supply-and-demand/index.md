@@ -183,14 +183,19 @@ The equilibrium is $P^* = \$4.00$, $Q^* = 40$ million gallons.
 Suppose the demand and supply equations for a good are:
 
 $$Q_d = 100 - 2P$$
+
 $$Q_s = 10 + 3P$$
 
 **Finding equilibrium:**
 
 $$Q_d = Q_s$$
+
 $$100 - 2P = 10 + 3P$$
+
 $$90 = 5P$$
+
 $$P^* = 18$$
+
 $$Q^* = 100 - 2(18) = 64$$
 
 The equilibrium price is **\$18** and equilibrium quantity is **64 units**.
@@ -356,6 +361,7 @@ For each event, state whether demand for the good in **bold** increases, decreas
 The market for apartments in a college town has:
 
 $$Q_d = 1200 - 3P$$
+
 $$Q_s = 300 + 2P$$
 
 where $Q$ is the number of apartments and $P$ is monthly rent.
@@ -405,6 +411,7 @@ In the market for gasoline, explain the effect on the equilibrium price and quan
 The supply and demand for a good are:
 
 $$Q_d = 80 - P$$
+
 $$Q_s = 20 + P$$
 
 **a)** Find equilibrium P* and Q*.  

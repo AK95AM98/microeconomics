@@ -109,7 +109,9 @@ Consider a gamble: a 50% chance of gaining \$100 and a 50% chance of losing \$10
 **Prospect-theory valuation:**
 
 $$v(100) = 100^{0.5} = 10$$
+
 $$v(-100) = -2(100)^{0.5} = -20$$
+
 $$\text{Prospect value} = 0.5(10) + 0.5(-20) = 5 - 10 = -5$$
 
 Even though the gamble is fair in expected-value terms, a loss-averse decision-maker assigns it a **negative** prospect value — and will reject it. This explains a well-documented experimental finding: most people reject fair coin-flip gambles over money, even gambles that a risk-*neutral* expected-utility maximizer should be indifferent to.

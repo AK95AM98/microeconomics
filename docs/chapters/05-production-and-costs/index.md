@@ -208,7 +208,9 @@ $$ATC(Q) = \frac{TC}{Q} = \frac{200}{Q} + 10 + 2Q$$
 **Step 4: Find the output that minimizes ATC**, by setting $MC = ATC$:
 
 $$10 + 4Q = \frac{200}{Q} + 10 + 2Q$$
+
 $$2Q = \frac{200}{Q}$$
+
 $$2Q^2 = 200 \implies Q^2 = 100 \implies Q^* = 10$$
 
 At $Q=10$: $ATC = \dfrac{200}{10} + 10 + 2(10) = 20+10+20 = \$50$, and $MC = 10+4(10) = \$50$. The curves intersect exactly at $ATC$'s minimum, confirming the relationship above.

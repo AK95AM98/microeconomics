@@ -213,7 +213,9 @@ $$MCL = \frac{d(TLC)}{dL} = 10 + 0.04L$$
 Suppose $MRP_L = 100 - 0.04L$. Setting $MRP_L = MCL$:
 
 $$100 - 0.04L = 10 + 0.04L$$
+
 $$90 = 0.08L$$
+
 $$L^* = 1125$$
 
 The wage paid is read off the *supply* curve at $L = 1125$:

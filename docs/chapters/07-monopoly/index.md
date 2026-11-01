@@ -108,7 +108,9 @@ A monopolist faces demand $P = 100 - 2Q$ and has constant marginal cost $MC = 20
 From Section 7.2, $MR = 100 - 4Q$. Set $MR = MC$:
 
 $$100 - 4Q = 20$$
+
 $$80 = 4Q$$
+
 $$Q^M = 20$$
 
 Price from the demand curve:
@@ -209,6 +211,7 @@ The firm sorts customers into **groups** based on an observable characteristic c
 A monopolist sells to two markets with demand curves:
 
 $$P_1 = 50 - Q_1 \quad \text{(Market 1: adults)}$$
+
 $$P_2 = 30 - Q_2 \quad \text{(Market 2: students)}$$
 
 Marginal cost is constant at $MC = 10$ in both markets, and resale between markets is impossible.
@@ -218,6 +221,7 @@ Marginal revenue in each market: $MR_1 = 50 - 2Q_1$, $MR_2 = 30 - 2Q_2$.
 Set each equal to $MC = 10$:
 
 $$50 - 2Q_1 = 10 \implies Q_1 = 20, \quad P_1 = 50 - 20 = \$30$$
+
 $$30 - 2Q_2 = 10 \implies Q_2 = 10, \quad P_2 = 30 - 10 = \$20$$
 
 | Market | Price | Quantity |
@@ -374,6 +378,7 @@ Demand is $P = 200 - Q$ and marginal cost is constant at $MC = 40$ (no fixed cos
 An airline sells tickets to business travelers and leisure travelers on the same flight. Demand curves are:
 
 $$P_B = 800 - 2Q_B \quad \text{(business)}$$
+
 $$P_L = 400 - 2Q_L \quad \text{(leisure)}$$
 
 Marginal cost per seat is constant at $MC = 100$, and the airline can prevent resale (tickets are non-transferable).
