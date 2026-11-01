@@ -2,12 +2,17 @@
 title: 'Microeconomics: An Intelligent Textbook'
 description: 'An intelligent textbook for Microeconomics. Covers supply and demand, consumer theory, market structures, game theory, market failures, behavioral economics, and international trade with interactive simulations.'
 image: img/cover.png
+og:image: img/cover.png
+twitter:image: img/cover.png
 ---
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
 
 # Microeconomics: An Intelligent Textbook
 
 <figure markdown>
-  ![Microeconomics: An Intelligent Textbook cover](./img/cover.png){ width="100%" }
+  ![Microeconomics: An Intelligent Textbook. Cover image of a warm watercolor montage of supply-and-demand curves, a production possibilities frontier, a monopoly deadweight-loss triangle, a game-theory payoff matrix, a factory, a cargo ship, a market-failure balance scale, and indifference curves, with Professor Owl the mascot in the corner](./img/cover.png){ width="100%" }
 </figure>
 
 **Prof. Sharat Batra** · University of Minnesota · [batra052@umn.edu](mailto:batra052@umn.edu)

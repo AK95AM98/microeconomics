@@ -9,6 +9,11 @@ edit_uri: 'blob/main/docs'
 hooks:
   - plugins/social_override.py
 
+exclude_docs: |
+  docs/img/mascot/character-sheet.md
+  docs/img/mascot/image-prompts.md
+  docs/img/cover-image-prompt.md
+
 nav:
   - Home: index.md
   - Course Description: course-description.md
@@ -32,6 +37,7 @@ nav:
     - 16. International Trade: chapters/16-international-trade/index.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
+    - Mascot Test Page: learning-graph/mascot-test.md
   - MicroSims:
     - sims/index.md
   - Prompts:
@@ -92,3 +98,4 @@ extra_javascript:
 
 extra_css:
   - css/extra.css
+  - css/mascot.css

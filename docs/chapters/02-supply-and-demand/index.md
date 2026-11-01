@@ -13,6 +13,10 @@ After completing this chapter, you will be able to:
 
 ---
 
+!!! mascot-welcome "Welcome Back!"
+    ![Professor Owl waving hello](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Welcome back! This chapter hands you the single most useful tool in all of economics: supply and demand. Once you can read these two curves, you can explain rent spikes, gas shortages, and ticket scalping — every choice has a trade-off, and this chapter shows you how markets sort them out.
+
 ## 2.1 Markets
 
 A **market** is any arrangement that facilitates the exchange of a good or service between buyers and sellers. Markets can be physical (a farmers' market), virtual (Amazon), or decentralized (the labor market). The **price** that emerges in a market coordinates the decisions of buyers and sellers without any central authority directing them.
@@ -46,6 +50,10 @@ Two effects explain the inverse relationship between price and quantity demanded
 1. **Substitution effect:** When the price of coffee rises, consumers substitute toward tea. The good becomes relatively more expensive.
 2. **Income effect:** When the price of coffee rises, consumers' purchasing power falls — they can afford less of everything, including coffee.
 
+!!! mascot-thinking "Two Effects, Same Direction"
+    ![Professor Owl thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Notice that both effects point the same direction: a higher price makes a good relatively more expensive (substitution) *and* makes you poorer in real terms (income). That's why the law of demand holds so reliably.
+
 ### The Demand Schedule and Curve
 
 Consider the market for gasoline in Minneapolis:
@@ -65,6 +73,10 @@ Plotting price on the vertical axis and quantity on the horizontal axis gives a 
 **Movement along the demand curve:** Caused only by a change in the **price of the good itself**. This is a change in *quantity demanded*.
 
 **Shift of the demand curve:** Caused by a change in any *other* factor that affects demand. The entire curve moves left (decrease) or right (increase).
+
+!!! mascot-warning "Movement or Shift?"
+    ![Professor Owl warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
+    Students often say "demand increased" when a price change actually caused a movement along the curve. Before you write "shift," ask yourself: did the price of this exact good change? If yes, it's a movement, not a shift.
 
 ### Determinants of Demand (Demand Shifters)
 
@@ -127,6 +139,10 @@ The **supply curve** is an upward-sloping line (or curve) showing the quantity s
 !!! example "Technology and supply"
     The development of hydraulic fracturing ("fracking") dramatically lowered the cost of extracting natural gas. This shifted the supply curve for natural gas rightward — producers were willing to supply more at every price, driving down the market price.
 
+!!! mascot-tip "Spotting Surplus vs. Shortage Fast"
+    ![Professor Owl sharing a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    To tell surplus from shortage fast, compare the current price to $P^*$: above it, picture unsold inventory piling up (surplus); below it, picture a line out the door (shortage).
+
 ---
 
 ## 2.4 Market Equilibrium
@@ -157,6 +173,10 @@ The equilibrium is $P^* = \$4.00$, $Q^* = 40$ million gallons.
 
 !!! tip "The market as a coordinating mechanism"
     Prices serve as signals. A price above equilibrium signals "too much supply — cut back." A price below equilibrium signals "too much demand — produce more." No central planner is needed.
+
+!!! mascot-encourage "Algebra Is Just the Table, Rewritten"
+    ![Professor Owl giving encouragement](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    Solving $Q_d = Q_s$ algebraically feels abstract the first few times — that's normal. Work through the gasoline numbers above with a pencil before reading the worked example below; you'll find the algebra is just the table you already understand, written differently.
 
 ### Mathematical Example
 
@@ -429,6 +449,10 @@ In 2020, the COVID-19 pandemic caused the demand for hand sanitizer to increase 
     **b)** The effect on price is **ambiguous**. The demand increase pushes price up; the supply increase pushes price down. The net effect depends on which shift was larger.
 
     **c)** Running out of stock is a **shortage** — quantity demanded exceeds quantity supplied at the current price. This is consistent with supply-and-demand theory when price is held **below** equilibrium. Many retailers chose not to raise prices (for ethical or reputational reasons), so prices did not rise to clear the market. This suggests that the equilibrium price for hand sanitizer rose substantially — but price controls (informal or formal) prevented prices from reaching equilibrium.
+
+!!! mascot-celebration "You Can Now Read a Market"
+    ![Professor Owl celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    You can now build a demand curve, a supply curve, find equilibrium algebraically, and measure who gains from a trade. That's the engine behind nearly every chapter still to come!
 
 ---
 

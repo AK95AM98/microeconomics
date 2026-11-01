@@ -12,6 +12,19 @@ After completing this chapter, you will be able to:
 
 ---
 
+!!! mascot-welcome "Meet Professor Owl"
+    ![Professor Owl waving hello](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Hello! I'm Professor Owl, a Great Horned Owl who has spent countless semesters helping students make sense of microeconomics, one trade-off at a time. I'll show up in six different moods as you read this book:
+
+    1. **Welcome** — I'll open each chapter and tell you why it's worth your attention.
+    2. **Thinking** — I'll pause with you at the big "aha" moments.
+    3. **Tip** — I'll hand you a shortcut, like a secret passed between students.
+    4. **Warning** — I'll flag the mistakes nearly everyone makes, before you make them.
+    5. **Encourage** — when the material gets genuinely hard, I'll remind you that's normal.
+    6. **Celebration** — when you've truly mastered something, we'll celebrate it together.
+
+    If I'm not doing one of those six things, I'm not in the chapter. Every choice has a trade-off — and I promise only to spend yours when it's worth it.
+
 ## 1.1 What Is Economics?
 
 **Economics** is the study of how individuals, firms, and societies allocate scarce resources to satisfy unlimited wants. Because resources — time, money, land, labor — are limited, every economic agent must make choices. Economics provides the tools to analyze those choices systematically.
@@ -43,6 +56,10 @@ $$\text{Opportunity Cost} = \text{Value of the Next-Best Alternative Foregone}$$
     The full cost of attending college is not just tuition and books. It also includes the **foregone wages** you could have earned by working instead. For a student who could earn \$35,000/year, the opportunity cost of a four-year degree includes \$140,000 in foregone income — even if tuition is free.
 
 **Key insight:** Opportunity costs are often hidden. Economists think about all costs — not just the ones that show up on a bill.
+
+!!! mascot-thinking "The Cost You Can't See"
+    ![Professor Owl thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    Notice that Maria's painting and the airline's empty seat share something: the real cost was never on a receipt. Once you start asking "what am I giving up?" instead of "what am I paying?", you're thinking like an economist.
 
 ### Sunk Costs
 
@@ -115,6 +132,10 @@ Plotting these combinations traces the PPF — a curve bowing outward from the a
 
 **4. The slope of the PPF = the opportunity cost** of producing one more unit of a good.
 
+!!! mascot-encourage "If the PPF Feels Slippery, That's Normal"
+    ![Professor Owl giving encouragement](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
+    "Increasing opportunity cost" trips up almost every new economics student — it's genuinely counterintuitive the first time. Sketch the wheat-and-computers table above again by hand; the bowed shape will click once you see the numbers yourself.
+
 ### Why Is the PPF Bowed Outward?
 
 The outward bow (concave shape) reflects the **law of increasing opportunity costs**: as you produce more of one good, you must give up increasing amounts of the other. This happens because resources are not equally suited to producing both goods — the most productive wheat farmers are moved to computer production last.
@@ -161,6 +182,10 @@ Economists build **models** — simplified representations of reality — to iso
 | **Verifiable?** | In principle, yes | No — depends on values |
 
 Economists try to keep these separate. A positive analysis of the minimum wage does not tell you whether to support it; that depends on your values and how you weigh trade-offs.
+
+!!! mascot-tip "Spotting Positive vs. Normative Fast"
+    ![Professor Owl sharing a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
+    Here's a fast test: if you could, in principle, settle the claim with data, it's positive. If settling it requires someone's values, it's normative. Run every statement in Problem 5 through that test before you check the solution.
 
 ---
 
@@ -266,6 +291,10 @@ Classify each statement as positive or normative.
     2. **Normative** — a value judgment about policy.
     3. **Positive** — a testable prediction of economic theory.
     4. **Normative** — a statement about values, not facts.
+
+!!! mascot-celebration "You've Learned to Think Like an Economist"
+    ![Professor Owl celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
+    Look back at where you started: you can now name a hidden cost, resist a sunk-cost trap, apply MB = MC to a real decision, and read a PPF. That's the entire toolkit this book builds on — every choice has a trade-off!
 
 ---
 
