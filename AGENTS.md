@@ -27,3 +27,16 @@ GitHub: AK95AM98
 Before generating content for the chapters, lesson plans, quizzes, FAQ or other student-facing
 text, read the `CONTENT-GENERATION-GUIDE.md` file. Note that the teacher guide, instructor guide,
 or other instructor-facing content does not use the mascot described in CONTENT-GENERATION-GUIDE.md.
+
+## Quality Gates Before Generation
+Before any content-generation skill (learning-graph-generator,
+book-chapter-generator, chapter-content-generator, glossary-generator,
+faq-generator, quiz-generator, reference-generator, book-installer, etc.)
+starts creating its output, it must first check the overall/quality score
+of the upstream artifact it depends on — e.g. the
+course-description-analyzer's score for `docs/course-description.md` before
+generating the learning graph, or the learning graph's own quality metrics
+before generating chapters — and only proceed if that score meets the
+skill's recommended threshold (course-description-analyzer's own bar is
+85/100). If the score is below threshold, stop and flag the gap to the
+author rather than generating content on top of weak input.
