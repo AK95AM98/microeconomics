@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dmccreary/ibook-skills/main/src/book-metrics/book-metrics.schema.json",
+  "metricsVersion": "1.0",
+  "metricsGeneratedBy": "book-metrics (custom reimplementation, bk-generate-book-metrics unavailable)",
+  "metricsGeneratedOn": "November 01, 2026 at 11:22 PM",
+  "metricsGeneratedOnISO": "2026-11-01T23:22:29",
+  "metrics": {
+    "concepts": 242,
+    "chapters": 16,
+    "microsims": 0,
+    "stories": 0,
+    "labs": 0,
+    "glossaryTerms": 242,
+    "faqs": 90,
+    "quizQuestions": 160,
+    "chapterQuizzes": 16,
+    "chapterReferences": 16,
+    "references": 160,
+    "diagrams": 0,
+    "equations": 1411,
+    "words": 128652,
+    "links": 480,
+    "appendices": 0,
+    "mascotImages": 7,
+    "developmentStage": "Content Complete (chapters, learning graph, glossary, FAQ, quizzes, references; no MicroSims yet)",
+    "equivalentPages": 514.6
+  }
+}
