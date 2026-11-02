@@ -1,0 +1,2811 @@
+{
+  "metadata": {
+    "title": "ECON 1101: Principles of Microeconomics",
+    "description": "A learning graph for an undergraduate principles of microeconomics course covering scarcity and opportunity cost, supply and demand, elasticity, consumer and producer theory, market structures, game theory, factor markets, market failures, information economics, behavioral economics, and international trade.",
+    "creator": "Prof. Sharat Batra, University of Minnesota",
+    "date": "2026-11-01",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundations",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SUPDEM": {
+      "classifierName": "Supply and Demand",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ELAS": {
+      "classifierName": "Elasticity",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CONS": {
+      "classifierName": "Consumer Theory",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PROD": {
+      "classifierName": "Production and Costs",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PCOMP": {
+      "classifierName": "Perfect Competition",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MONOP": {
+      "classifierName": "Monopoly",
+      "color": "Khaki",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MCOMP": {
+      "classifierName": "Monopolistic Competition",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "OLIG": {
+      "classifierName": "Oligopoly",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "GAME": {
+      "classifierName": "Game Theory",
+      "color": "LightSkyBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "FACTOR": {
+      "classifierName": "Factor Markets",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MKTFAIL": {
+      "classifierName": "Market Failures",
+      "color": "DarkRed",
+      "font": {
+        "color": "white"
+      }
+    },
+    "EXTPUB": {
+      "classifierName": "Externalities and Public Goods",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "INFO": {
+      "classifierName": "Information Economics",
+      "color": "Indigo",
+      "font": {
+        "color": "white"
+      }
+    },
+    "BEHAV": {
+      "classifierName": "Behavioral Economics",
+      "color": "DarkOrchid",
+      "font": {
+        "color": "white"
+      }
+    },
+    "TRADE": {
+      "classifierName": "International Trade",
+      "color": "HotPink",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Scarcity",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1674
+    },
+    {
+      "id": 2,
+      "label": "Choice",
+      "group": "FOUND",
+      "cis": 608
+    },
+    {
+      "id": 3,
+      "label": "Opportunity Cost",
+      "group": "FOUND",
+      "cis": 604
+    },
+    {
+      "id": 4,
+      "label": "Sunk Cost",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 5,
+      "label": "Marginal Analysis",
+      "group": "FOUND",
+      "cis": 580
+    },
+    {
+      "id": 6,
+      "label": "Marginal Benefit",
+      "group": "FOUND",
+      "cis": 63
+    },
+    {
+      "id": 7,
+      "label": "Marginal Cost",
+      "group": "FOUND",
+      "cis": 77
+    },
+    {
+      "id": 8,
+      "label": "Production Frontier",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 9,
+      "label": "Productive Efficiency",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 10,
+      "label": "Increasing Opportunity Cost",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 11,
+      "label": "Comparative Advantage",
+      "group": "FOUND",
+      "cis": 22
+    },
+    {
+      "id": 12,
+      "label": "Absolute Advantage",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 13,
+      "label": "Specialization",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 14,
+      "label": "Ceteris Paribus",
+      "group": "FOUND",
+      "cis": 4
+    },
+    {
+      "id": 15,
+      "label": "Positive Economics",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 16,
+      "label": "Normative Economics",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 17,
+      "label": "Economic Model",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 18,
+      "label": "Market",
+      "group": "SUPDEM",
+      "cis": 454
+    },
+    {
+      "id": 19,
+      "label": "Demand",
+      "group": "SUPDEM",
+      "cis": 221
+    },
+    {
+      "id": 20,
+      "label": "Law of Demand",
+      "group": "SUPDEM",
+      "cis": 220
+    },
+    {
+      "id": 21,
+      "label": "Demand Curve",
+      "group": "SUPDEM",
+      "cis": 219
+    },
+    {
+      "id": 22,
+      "label": "Quantity Demanded",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 23,
+      "label": "Determinants of Demand",
+      "group": "SUPDEM",
+      "cis": 8
+    },
+    {
+      "id": 24,
+      "label": "Change in Demand",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 25,
+      "label": "Supply",
+      "group": "SUPDEM",
+      "cis": 203
+    },
+    {
+      "id": 26,
+      "label": "Law of Supply",
+      "group": "SUPDEM",
+      "cis": 202
+    },
+    {
+      "id": 27,
+      "label": "Supply Curve",
+      "group": "SUPDEM",
+      "cis": 201
+    },
+    {
+      "id": 28,
+      "label": "Determinants of Supply",
+      "group": "SUPDEM",
+      "cis": 2
+    },
+    {
+      "id": 29,
+      "label": "Change in Supply",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 30,
+      "label": "Market Equilibrium",
+      "group": "SUPDEM",
+      "cis": 137
+    },
+    {
+      "id": 31,
+      "label": "Equilibrium Price",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 32,
+      "label": "Equilibrium Quantity",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 33,
+      "label": "Market Surplus",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 34,
+      "label": "Market Shortage",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 35,
+      "label": "Consumer Surplus",
+      "group": "SUPDEM",
+      "cis": 59
+    },
+    {
+      "id": 36,
+      "label": "Producer Surplus",
+      "group": "SUPDEM",
+      "cis": 59
+    },
+    {
+      "id": 37,
+      "label": "Total Surplus",
+      "group": "SUPDEM",
+      "cis": 58
+    },
+    {
+      "id": 38,
+      "label": "Normal Good",
+      "group": "SUPDEM",
+      "cis": 2
+    },
+    {
+      "id": 39,
+      "label": "Inferior Good",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 40,
+      "label": "Substitute Goods",
+      "group": "SUPDEM",
+      "cis": 2
+    },
+    {
+      "id": 41,
+      "label": "Complement Goods",
+      "group": "SUPDEM",
+      "cis": 1
+    },
+    {
+      "id": 42,
+      "label": "Elasticity",
+      "group": "ELAS",
+      "cis": 17
+    },
+    {
+      "id": 43,
+      "label": "Price Elasticity of Demand",
+      "group": "ELAS",
+      "cis": 12
+    },
+    {
+      "id": 44,
+      "label": "Midpoint Elasticity Formula",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 45,
+      "label": "Elastic Demand",
+      "group": "ELAS",
+      "cis": 3
+    },
+    {
+      "id": 46,
+      "label": "Inelastic Demand",
+      "group": "ELAS",
+      "cis": 3
+    },
+    {
+      "id": 47,
+      "label": "Unit-Elastic Demand",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 48,
+      "label": "Perfectly Inelastic Demand",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 49,
+      "label": "Perfectly Elastic Demand",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 50,
+      "label": "Determinants of Price Elasticity",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 51,
+      "label": "Total Revenue Test",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 52,
+      "label": "Price Elasticity of Supply",
+      "group": "ELAS",
+      "cis": 2
+    },
+    {
+      "id": 53,
+      "label": "Income Elasticity of Demand",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 54,
+      "label": "Cross-Price Elasticity of Demand",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 55,
+      "label": "Tax Incidence",
+      "group": "ELAS",
+      "cis": 1
+    },
+    {
+      "id": 56,
+      "label": "Utility",
+      "group": "CONS",
+      "cis": 48
+    },
+    {
+      "id": 57,
+      "label": "Total Utility",
+      "group": "CONS",
+      "cis": 12
+    },
+    {
+      "id": 58,
+      "label": "Marginal Utility",
+      "group": "CONS",
+      "cis": 3
+    },
+    {
+      "id": 59,
+      "label": "Diminishing Marginal Utility",
+      "group": "CONS",
+      "cis": 1
+    },
+    {
+      "id": 60,
+      "label": "Equal Marginal Principle",
+      "group": "CONS",
+      "cis": 1
+    },
+    {
+      "id": 61,
+      "label": "Budget Constraint",
+      "group": "CONS",
+      "cis": 22
+    },
+    {
+      "id": 62,
+      "label": "Indifference Curve",
+      "group": "CONS",
+      "cis": 17
+    },
+    {
+      "id": 63,
+      "label": "Marginal Rate of Substitution",
+      "group": "CONS",
+      "cis": 3
+    },
+    {
+      "id": 64,
+      "label": "Consumer Optimum",
+      "group": "CONS",
+      "cis": 13
+    },
+    {
+      "id": 65,
+      "label": "Tangency Condition",
+      "group": "CONS",
+      "cis": 2
+    },
+    {
+      "id": 66,
+      "label": "Income Effect",
+      "group": "CONS",
+      "cis": 8
+    },
+    {
+      "id": 67,
+      "label": "Substitution Effect",
+      "group": "CONS",
+      "cis": 2
+    },
+    {
+      "id": 68,
+      "label": "Giffen Good",
+      "group": "CONS",
+      "cis": 1
+    },
+    {
+      "id": 69,
+      "label": "Demand Curve Derivation",
+      "group": "CONS",
+      "cis": 1
+    },
+    {
+      "id": 70,
+      "label": "Production Function",
+      "group": "PROD",
+      "cis": 372
+    },
+    {
+      "id": 71,
+      "label": "Total Product",
+      "group": "PROD",
+      "cis": 12
+    },
+    {
+      "id": 72,
+      "label": "Marginal Product",
+      "group": "PROD",
+      "cis": 10
+    },
+    {
+      "id": 73,
+      "label": "Average Product",
+      "group": "PROD",
+      "cis": 1
+    },
+    {
+      "id": 74,
+      "label": "Diminishing Marginal Returns",
+      "group": "PROD",
+      "cis": 1
+    },
+    {
+      "id": 75,
+      "label": "Short Run",
+      "group": "PROD",
+      "cis": 282
+    },
+    {
+      "id": 76,
+      "label": "Long Run",
+      "group": "PROD",
+      "cis": 65
+    },
+    {
+      "id": 77,
+      "label": "Fixed Cost",
+      "group": "PROD",
+      "cis": 139
+    },
+    {
+      "id": 78,
+      "label": "Variable Cost",
+      "group": "PROD",
+      "cis": 142
+    },
+    {
+      "id": 79,
+      "label": "Total Cost",
+      "group": "PROD",
+      "cis": 137
+    },
+    {
+      "id": 80,
+      "label": "Average Fixed Cost",
+      "group": "PROD",
+      "cis": 1
+    },
+    {
+      "id": 81,
+      "label": "Average Variable Cost",
+      "group": "PROD",
+      "cis": 4
+    },
+    {
+      "id": 82,
+      "label": "Average Total Cost",
+      "group": "PROD",
+      "cis": 65
+    },
+    {
+      "id": 83,
+      "label": "Short-Run Marginal Cost",
+      "group": "PROD",
+      "cis": 13
+    },
+    {
+      "id": 84,
+      "label": "Long-Run Average Cost",
+      "group": "PROD",
+      "cis": 64
+    },
+    {
+      "id": 85,
+      "label": "Economies of Scale",
+      "group": "PROD",
+      "cis": 8
+    },
+    {
+      "id": 86,
+      "label": "Diseconomies of Scale",
+      "group": "PROD",
+      "cis": 1
+    },
+    {
+      "id": 87,
+      "label": "Minimum Efficient Scale",
+      "group": "PROD",
+      "cis": 3
+    },
+    {
+      "id": 88,
+      "label": "Perfect Competition",
+      "group": "PCOMP",
+      "cis": 106
+    },
+    {
+      "id": 89,
+      "label": "Price Taker",
+      "group": "PCOMP",
+      "cis": 25
+    },
+    {
+      "id": 90,
+      "label": "Marginal Revenue",
+      "group": "PCOMP",
+      "cis": 24
+    },
+    {
+      "id": 91,
+      "label": "MR Equals MC Rule",
+      "group": "PCOMP",
+      "cis": 4
+    },
+    {
+      "id": 92,
+      "label": "Shutdown Rule",
+      "group": "PCOMP",
+      "cis": 3
+    },
+    {
+      "id": 93,
+      "label": "Short-Run Firm Supply Curve",
+      "group": "PCOMP",
+      "cis": 2
+    },
+    {
+      "id": 94,
+      "label": "Short-Run Industry Supply Curve",
+      "group": "PCOMP",
+      "cis": 1
+    },
+    {
+      "id": 95,
+      "label": "Economic Profit",
+      "group": "PCOMP",
+      "cis": 58
+    },
+    {
+      "id": 96,
+      "label": "Accounting Profit",
+      "group": "PCOMP",
+      "cis": 2
+    },
+    {
+      "id": 97,
+      "label": "Long-Run Competitive Equilibrium",
+      "group": "PCOMP",
+      "cis": 55
+    },
+    {
+      "id": 98,
+      "label": "Allocative Efficiency",
+      "group": "PCOMP",
+      "cis": 50
+    },
+    {
+      "id": 99,
+      "label": "Monopoly",
+      "group": "MONOP",
+      "cis": 55
+    },
+    {
+      "id": 100,
+      "label": "Barrier to Entry",
+      "group": "MONOP",
+      "cis": 4
+    },
+    {
+      "id": 101,
+      "label": "Natural Monopoly",
+      "group": "MONOP",
+      "cis": 3
+    },
+    {
+      "id": 102,
+      "label": "Price Maker",
+      "group": "MONOP",
+      "cis": 20
+    },
+    {
+      "id": 103,
+      "label": "Monopolist Marginal Revenue",
+      "group": "MONOP",
+      "cis": 19
+    },
+    {
+      "id": 104,
+      "label": "Monopoly Profit Maximization",
+      "group": "MONOP",
+      "cis": 8
+    },
+    {
+      "id": 105,
+      "label": "Deadweight Loss",
+      "group": "MONOP",
+      "cis": 7
+    },
+    {
+      "id": 106,
+      "label": "Price Discrimination",
+      "group": "MONOP",
+      "cis": 5
+    },
+    {
+      "id": 107,
+      "label": "First-Degree Discrimination",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 108,
+      "label": "Second-Degree Discrimination",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 109,
+      "label": "Third-Degree Discrimination",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 110,
+      "label": "Arbitrage",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 111,
+      "label": "Marginal-Cost Pricing Regulation",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 112,
+      "label": "Average-Cost Pricing Regulation",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 113,
+      "label": "Antitrust Policy",
+      "group": "MONOP",
+      "cis": 3
+    },
+    {
+      "id": 114,
+      "label": "Sherman Antitrust Act",
+      "group": "MONOP",
+      "cis": 1
+    },
+    {
+      "id": 115,
+      "label": "Monopolistic Competition",
+      "group": "MCOMP",
+      "cis": 11
+    },
+    {
+      "id": 116,
+      "label": "Product Differentiation",
+      "group": "MCOMP",
+      "cis": 5
+    },
+    {
+      "id": 117,
+      "label": "Brand Loyalty",
+      "group": "MCOMP",
+      "cis": 1
+    },
+    {
+      "id": 118,
+      "label": "Monopolistic Short-Run Profit",
+      "group": "MCOMP",
+      "cis": 5
+    },
+    {
+      "id": 119,
+      "label": "Monopolistic Zero Profit",
+      "group": "MCOMP",
+      "cis": 4
+    },
+    {
+      "id": 120,
+      "label": "Markup Over Marginal Cost",
+      "group": "MCOMP",
+      "cis": 3
+    },
+    {
+      "id": 121,
+      "label": "Excess Capacity",
+      "group": "MCOMP",
+      "cis": 2
+    },
+    {
+      "id": 122,
+      "label": "Non-Price Competition",
+      "group": "MCOMP",
+      "cis": 3
+    },
+    {
+      "id": 123,
+      "label": "Informative Advertising",
+      "group": "MCOMP",
+      "cis": 1
+    },
+    {
+      "id": 124,
+      "label": "Persuasive Advertising",
+      "group": "MCOMP",
+      "cis": 1
+    },
+    {
+      "id": 125,
+      "label": "Product Variety",
+      "group": "MCOMP",
+      "cis": 1
+    },
+    {
+      "id": 126,
+      "label": "Oligopoly",
+      "group": "OLIG",
+      "cis": 13
+    },
+    {
+      "id": 127,
+      "label": "Strategic Interdependence",
+      "group": "OLIG",
+      "cis": 9
+    },
+    {
+      "id": 128,
+      "label": "Cournot Model",
+      "group": "OLIG",
+      "cis": 3
+    },
+    {
+      "id": 129,
+      "label": "Cournot Best-Response Function",
+      "group": "OLIG",
+      "cis": 2
+    },
+    {
+      "id": 130,
+      "label": "Cournot-Nash Equilibrium",
+      "group": "OLIG",
+      "cis": 1
+    },
+    {
+      "id": 131,
+      "label": "Bertrand Model",
+      "group": "OLIG",
+      "cis": 2
+    },
+    {
+      "id": 132,
+      "label": "Bertrand Paradox",
+      "group": "OLIG",
+      "cis": 1
+    },
+    {
+      "id": 133,
+      "label": "Collusion",
+      "group": "OLIG",
+      "cis": 2
+    },
+    {
+      "id": 134,
+      "label": "Cartel",
+      "group": "OLIG",
+      "cis": 1
+    },
+    {
+      "id": 135,
+      "label": "Kinked Demand Curve",
+      "group": "OLIG",
+      "cis": 1
+    },
+    {
+      "id": 136,
+      "label": "Concentration Ratio",
+      "group": "OLIG",
+      "cis": 3
+    },
+    {
+      "id": 137,
+      "label": "Herfindahl-Hirschman Index",
+      "group": "OLIG",
+      "cis": 2
+    },
+    {
+      "id": 138,
+      "label": "Oligopoly Antitrust Policy",
+      "group": "OLIG",
+      "cis": 1
+    },
+    {
+      "id": 139,
+      "label": "Game",
+      "group": "GAME",
+      "cis": 18
+    },
+    {
+      "id": 140,
+      "label": "Payoff Matrix",
+      "group": "GAME",
+      "cis": 17
+    },
+    {
+      "id": 141,
+      "label": "Dominant Strategy",
+      "group": "GAME",
+      "cis": 7
+    },
+    {
+      "id": 142,
+      "label": "Dominated Strategy",
+      "group": "GAME",
+      "cis": 1
+    },
+    {
+      "id": 143,
+      "label": "Nash Equilibrium",
+      "group": "GAME",
+      "cis": 9
+    },
+    {
+      "id": 144,
+      "label": "Prisoners Dilemma",
+      "group": "GAME",
+      "cis": 3
+    },
+    {
+      "id": 145,
+      "label": "Coordination Game",
+      "group": "GAME",
+      "cis": 1
+    },
+    {
+      "id": 146,
+      "label": "Repeated Game",
+      "group": "GAME",
+      "cis": 2
+    },
+    {
+      "id": 147,
+      "label": "Tit-for-Tat Strategy",
+      "group": "GAME",
+      "cis": 1
+    },
+    {
+      "id": 148,
+      "label": "Sequential Game",
+      "group": "GAME",
+      "cis": 3
+    },
+    {
+      "id": 149,
+      "label": "Backward Induction",
+      "group": "GAME",
+      "cis": 2
+    },
+    {
+      "id": 150,
+      "label": "Non-Credible Threat",
+      "group": "GAME",
+      "cis": 1
+    },
+    {
+      "id": 151,
+      "label": "Derived Demand",
+      "group": "FACTOR",
+      "cis": 9
+    },
+    {
+      "id": 152,
+      "label": "Marginal Revenue Product",
+      "group": "FACTOR",
+      "cis": 8
+    },
+    {
+      "id": 153,
+      "label": "Labor Hiring Rule",
+      "group": "FACTOR",
+      "cis": 6
+    },
+    {
+      "id": 154,
+      "label": "Labor Demand Curve",
+      "group": "FACTOR",
+      "cis": 5
+    },
+    {
+      "id": 155,
+      "label": "Work-Leisure Trade-off",
+      "group": "FACTOR",
+      "cis": 8
+    },
+    {
+      "id": 156,
+      "label": "Labor Supply Substitution Effect",
+      "group": "FACTOR",
+      "cis": 1
+    },
+    {
+      "id": 157,
+      "label": "Labor Supply Income Effect",
+      "group": "FACTOR",
+      "cis": 6
+    },
+    {
+      "id": 158,
+      "label": "Backward-Bending Labor Supply",
+      "group": "FACTOR",
+      "cis": 5
+    },
+    {
+      "id": 159,
+      "label": "Labor Market Equilibrium",
+      "group": "FACTOR",
+      "cis": 4
+    },
+    {
+      "id": 160,
+      "label": "Monopsony",
+      "group": "FACTOR",
+      "cis": 3
+    },
+    {
+      "id": 161,
+      "label": "Marginal Cost of Labor",
+      "group": "FACTOR",
+      "cis": 2
+    },
+    {
+      "id": 162,
+      "label": "Monopsony Hiring Rule",
+      "group": "FACTOR",
+      "cis": 1
+    },
+    {
+      "id": 163,
+      "label": "Interest Rate",
+      "group": "FACTOR",
+      "cis": 7
+    },
+    {
+      "id": 164,
+      "label": "Present Value",
+      "group": "FACTOR",
+      "cis": 6
+    },
+    {
+      "id": 165,
+      "label": "Loanable Funds Market",
+      "group": "FACTOR",
+      "cis": 1
+    },
+    {
+      "id": 166,
+      "label": "Economic Rent",
+      "group": "FACTOR",
+      "cis": 1
+    },
+    {
+      "id": 167,
+      "label": "Human Capital",
+      "group": "FACTOR",
+      "cis": 2
+    },
+    {
+      "id": 168,
+      "label": "Market Failure",
+      "group": "MKTFAIL",
+      "cis": 49
+    },
+    {
+      "id": 169,
+      "label": "Externality",
+      "group": "MKTFAIL",
+      "cis": 17
+    },
+    {
+      "id": 170,
+      "label": "Negative Externality",
+      "group": "MKTFAIL",
+      "cis": 12
+    },
+    {
+      "id": 171,
+      "label": "Positive Externality",
+      "group": "MKTFAIL",
+      "cis": 4
+    },
+    {
+      "id": 172,
+      "label": "Excludability",
+      "group": "MKTFAIL",
+      "cis": 5
+    },
+    {
+      "id": 173,
+      "label": "Rivalry",
+      "group": "MKTFAIL",
+      "cis": 9
+    },
+    {
+      "id": 174,
+      "label": "Public Good",
+      "group": "MKTFAIL",
+      "cis": 4
+    },
+    {
+      "id": 175,
+      "label": "Common-Pool Resource",
+      "group": "MKTFAIL",
+      "cis": 4
+    },
+    {
+      "id": 176,
+      "label": "Tragedy of the Commons",
+      "group": "MKTFAIL",
+      "cis": 1
+    },
+    {
+      "id": 177,
+      "label": "Information Asymmetry",
+      "group": "MKTFAIL",
+      "cis": 14
+    },
+    {
+      "id": 178,
+      "label": "Adverse Selection",
+      "group": "MKTFAIL",
+      "cis": 4
+    },
+    {
+      "id": 179,
+      "label": "Moral Hazard",
+      "group": "MKTFAIL",
+      "cis": 4
+    },
+    {
+      "id": 180,
+      "label": "Market Power as Failure",
+      "group": "MKTFAIL",
+      "cis": 3
+    },
+    {
+      "id": 181,
+      "label": "Pigouvian Tax",
+      "group": "MKTFAIL",
+      "cis": 7
+    },
+    {
+      "id": 182,
+      "label": "Rent-Seeking",
+      "group": "MKTFAIL",
+      "cis": 2
+    },
+    {
+      "id": 183,
+      "label": "Government Failure",
+      "group": "MKTFAIL",
+      "cis": 1
+    },
+    {
+      "id": 184,
+      "label": "Social Marginal Cost",
+      "group": "EXTPUB",
+      "cis": 3
+    },
+    {
+      "id": 185,
+      "label": "Social Marginal Benefit",
+      "group": "EXTPUB",
+      "cis": 3
+    },
+    {
+      "id": 186,
+      "label": "Marginal External Cost",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 187,
+      "label": "Marginal External Benefit",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 188,
+      "label": "Externality Deadweight Loss",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 189,
+      "label": "Pigouvian Subsidy",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 190,
+      "label": "Coase Theorem",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 191,
+      "label": "Cap-and-Trade",
+      "group": "EXTPUB",
+      "cis": 3
+    },
+    {
+      "id": 192,
+      "label": "Marginal Abatement Cost",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 193,
+      "label": "Samuelson Condition",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 194,
+      "label": "Free-Rider Problem",
+      "group": "EXTPUB",
+      "cis": 2
+    },
+    {
+      "id": 195,
+      "label": "Median Voter Theorem",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 196,
+      "label": "Individual Transferable Quota",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 197,
+      "label": "Congestion Pricing",
+      "group": "EXTPUB",
+      "cis": 1
+    },
+    {
+      "id": 198,
+      "label": "Market for Lemons",
+      "group": "INFO",
+      "cis": 2
+    },
+    {
+      "id": 199,
+      "label": "Adverse Selection Death Spiral",
+      "group": "INFO",
+      "cis": 1
+    },
+    {
+      "id": 200,
+      "label": "Signaling",
+      "group": "INFO",
+      "cis": 3
+    },
+    {
+      "id": 201,
+      "label": "Education Signaling Model",
+      "group": "INFO",
+      "cis": 1
+    },
+    {
+      "id": 202,
+      "label": "Screening",
+      "group": "INFO",
+      "cis": 2
+    },
+    {
+      "id": 203,
+      "label": "Separating Equilibrium",
+      "group": "INFO",
+      "cis": 1
+    },
+    {
+      "id": 204,
+      "label": "Principal-Agent Problem",
+      "group": "INFO",
+      "cis": 3
+    },
+    {
+      "id": 205,
+      "label": "Incentive Compatibility",
+      "group": "INFO",
+      "cis": 1
+    },
+    {
+      "id": 206,
+      "label": "Agency Cost",
+      "group": "INFO",
+      "cis": 1
+    },
+    {
+      "id": 207,
+      "label": "Credit Rationing",
+      "group": "INFO",
+      "cis": 1
+    },
+    {
+      "id": 208,
+      "label": "Bounded Rationality",
+      "group": "BEHAV",
+      "cis": 18
+    },
+    {
+      "id": 209,
+      "label": "Satisficing",
+      "group": "BEHAV",
+      "cis": 1
+    },
+    {
+      "id": 210,
+      "label": "Heuristic",
+      "group": "BEHAV",
+      "cis": 16
+    },
+    {
+      "id": 211,
+      "label": "Cognitive Bias",
+      "group": "BEHAV",
+      "cis": 15
+    },
+    {
+      "id": 212,
+      "label": "Prospect Theory",
+      "group": "BEHAV",
+      "cis": 8
+    },
+    {
+      "id": 213,
+      "label": "Loss Aversion",
+      "group": "BEHAV",
+      "cis": 2
+    },
+    {
+      "id": 214,
+      "label": "Endowment Effect",
+      "group": "BEHAV",
+      "cis": 1
+    },
+    {
+      "id": 215,
+      "label": "Present Bias",
+      "group": "BEHAV",
+      "cis": 5
+    },
+    {
+      "id": 216,
+      "label": "Hyperbolic Discounting",
+      "group": "BEHAV",
+      "cis": 2
+    },
+    {
+      "id": 217,
+      "label": "Time Inconsistency",
+      "group": "BEHAV",
+      "cis": 1
+    },
+    {
+      "id": 218,
+      "label": "Framing Effect",
+      "group": "BEHAV",
+      "cis": 4
+    },
+    {
+      "id": 219,
+      "label": "Mental Accounting",
+      "group": "BEHAV",
+      "cis": 1
+    },
+    {
+      "id": 220,
+      "label": "Social Preferences",
+      "group": "BEHAV",
+      "cis": 2
+    },
+    {
+      "id": 221,
+      "label": "Inequity Aversion",
+      "group": "BEHAV",
+      "cis": 1
+    },
+    {
+      "id": 222,
+      "label": "Nudge",
+      "group": "BEHAV",
+      "cis": 2
+    },
+    {
+      "id": 223,
+      "label": "Libertarian Paternalism",
+      "group": "BEHAV",
+      "cis": 1
+    },
+    {
+      "id": 224,
+      "label": "Ricardian Trade Model",
+      "group": "TRADE",
+      "cis": 19
+    },
+    {
+      "id": 225,
+      "label": "Gains From Trade",
+      "group": "TRADE",
+      "cis": 16
+    },
+    {
+      "id": 226,
+      "label": "Terms of Trade",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 227,
+      "label": "Factor Endowment",
+      "group": "TRADE",
+      "cis": 3
+    },
+    {
+      "id": 228,
+      "label": "Heckscher-Ohlin Model",
+      "group": "TRADE",
+      "cis": 2
+    },
+    {
+      "id": 229,
+      "label": "Factor-Price Equalization",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 230,
+      "label": "Trade Winners and Losers",
+      "group": "TRADE",
+      "cis": 3
+    },
+    {
+      "id": 231,
+      "label": "Trade Adjustment Assistance",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 232,
+      "label": "Tariff",
+      "group": "TRADE",
+      "cis": 7
+    },
+    {
+      "id": 233,
+      "label": "Tariff Welfare Loss",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 234,
+      "label": "Import Quota",
+      "group": "TRADE",
+      "cis": 2
+    },
+    {
+      "id": 235,
+      "label": "Quota Rent",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 236,
+      "label": "World Trade Organization",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 237,
+      "label": "Infant Industry Argument",
+      "group": "TRADE",
+      "cis": 2
+    },
+    {
+      "id": 238,
+      "label": "Protectionism",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 239,
+      "label": "Globalization",
+      "group": "TRADE",
+      "cis": 1
+    },
+    {
+      "id": 240,
+      "label": "Trade Deficit",
+      "group": "TRADE",
+      "cis": 3
+    },
+    {
+      "id": 241,
+      "label": "Balance of Payments",
+      "group": "TRADE",
+      "cis": 2
+    },
+    {
+      "id": 242,
+      "label": "Current Account",
+      "group": "TRADE",
+      "cis": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 2
+    },
+    {
+      "from": 4,
+      "to": 3
+    },
+    {
+      "from": 5,
+      "to": 3
+    },
+    {
+      "from": 6,
+      "to": 5
+    },
+    {
+      "from": 7,
+      "to": 5
+    },
+    {
+      "from": 8,
+      "to": 1
+    },
+    {
+      "from": 8,
+      "to": 2
+    },
+    {
+      "from": 9,
+      "to": 8
+    },
+    {
+      "from": 10,
+      "to": 8
+    },
+    {
+      "from": 11,
+      "to": 3
+    },
+    {
+      "from": 12,
+      "to": 11
+    },
+    {
+      "from": 13,
+      "to": 11
+    },
+    {
+      "from": 14,
+      "to": 1
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 14
+    },
+    {
+      "from": 18,
+      "to": 1
+    },
+    {
+      "from": 19,
+      "to": 18
+    },
+    {
+      "from": 20,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 21
+    },
+    {
+      "from": 23,
+      "to": 21
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 18
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 26
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 21
+    },
+    {
+      "from": 30,
+      "to": 27
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 30
+    },
+    {
+      "from": 33,
+      "to": 30
+    },
+    {
+      "from": 34,
+      "to": 30
+    },
+    {
+      "from": 35,
+      "to": 21
+    },
+    {
+      "from": 35,
+      "to": 6
+    },
+    {
+      "from": 36,
+      "to": 27
+    },
+    {
+      "from": 36,
+      "to": 7
+    },
+    {
+      "from": 37,
+      "to": 35
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 23
+    },
+    {
+      "from": 39,
+      "to": 23
+    },
+    {
+      "from": 40,
+      "to": 23
+    },
+    {
+      "from": 41,
+      "to": 23
+    },
+    {
+      "from": 42,
+      "to": 30
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 43,
+      "to": 21
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 43
+    },
+    {
+      "from": 46,
+      "to": 43
+    },
+    {
+      "from": 47,
+      "to": 43
+    },
+    {
+      "from": 48,
+      "to": 46
+    },
+    {
+      "from": 49,
+      "to": 45
+    },
+    {
+      "from": 50,
+      "to": 43
+    },
+    {
+      "from": 51,
+      "to": 45
+    },
+    {
+      "from": 51,
+      "to": 46
+    },
+    {
+      "from": 52,
+      "to": 42
+    },
+    {
+      "from": 52,
+      "to": 27
+    },
+    {
+      "from": 53,
+      "to": 42
+    },
+    {
+      "from": 53,
+      "to": 38
+    },
+    {
+      "from": 54,
+      "to": 42
+    },
+    {
+      "from": 54,
+      "to": 40
+    },
+    {
+      "from": 55,
+      "to": 43
+    },
+    {
+      "from": 55,
+      "to": 52
+    },
+    {
+      "from": 56,
+      "to": 5
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 58,
+      "to": 57
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 5
+    },
+    {
+      "from": 61,
+      "to": 18
+    },
+    {
+      "from": 62,
+      "to": 56
+    },
+    {
+      "from": 63,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 61
+    },
+    {
+      "from": 64,
+      "to": 62
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 65,
+      "to": 63
+    },
+    {
+      "from": 66,
+      "to": 64
+    },
+    {
+      "from": 67,
+      "to": 64
+    },
+    {
+      "from": 68,
+      "to": 66
+    },
+    {
+      "from": 69,
+      "to": 65
+    },
+    {
+      "from": 69,
+      "to": 21
+    },
+    {
+      "from": 70,
+      "to": 5
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 71
+    },
+    {
+      "from": 74,
+      "to": 72
+    },
+    {
+      "from": 75,
+      "to": 70
+    },
+    {
+      "from": 76,
+      "to": 70
+    },
+    {
+      "from": 77,
+      "to": 75
+    },
+    {
+      "from": 78,
+      "to": 75
+    },
+    {
+      "from": 79,
+      "to": 77
+    },
+    {
+      "from": 79,
+      "to": 78
+    },
+    {
+      "from": 80,
+      "to": 77
+    },
+    {
+      "from": 81,
+      "to": 78
+    },
+    {
+      "from": 82,
+      "to": 79
+    },
+    {
+      "from": 83,
+      "to": 79
+    },
+    {
+      "from": 83,
+      "to": 7
+    },
+    {
+      "from": 84,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 76
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 85
+    },
+    {
+      "from": 88,
+      "to": 30
+    },
+    {
+      "from": 89,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 91,
+      "to": 83
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 92,
+      "to": 81
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 93
+    },
+    {
+      "from": 95,
+      "to": 79
+    },
+    {
+      "from": 96,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 95
+    },
+    {
+      "from": 97,
+      "to": 84
+    },
+    {
+      "from": 98,
+      "to": 97
+    },
+    {
+      "from": 98,
+      "to": 37
+    },
+    {
+      "from": 99,
+      "to": 88
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 101,
+      "to": 85
+    },
+    {
+      "from": 102,
+      "to": 99
+    },
+    {
+      "from": 103,
+      "to": 90
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 104,
+      "to": 83
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 105,
+      "to": 37
+    },
+    {
+      "from": 106,
+      "to": 103
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 106
+    },
+    {
+      "from": 109,
+      "to": 43
+    },
+    {
+      "from": 110,
+      "to": 106
+    },
+    {
+      "from": 111,
+      "to": 101
+    },
+    {
+      "from": 111,
+      "to": 105
+    },
+    {
+      "from": 112,
+      "to": 101
+    },
+    {
+      "from": 112,
+      "to": 96
+    },
+    {
+      "from": 113,
+      "to": 99
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 88
+    },
+    {
+      "from": 115,
+      "to": 99
+    },
+    {
+      "from": 116,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 115
+    },
+    {
+      "from": 118,
+      "to": 103
+    },
+    {
+      "from": 119,
+      "to": 118
+    },
+    {
+      "from": 119,
+      "to": 97
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 120
+    },
+    {
+      "from": 121,
+      "to": 87
+    },
+    {
+      "from": 122,
+      "to": 116
+    },
+    {
+      "from": 123,
+      "to": 122
+    },
+    {
+      "from": 124,
+      "to": 122
+    },
+    {
+      "from": 125,
+      "to": 121
+    },
+    {
+      "from": 126,
+      "to": 88
+    },
+    {
+      "from": 126,
+      "to": 99
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 127
+    },
+    {
+      "from": 129,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 130,
+      "to": 143
+    },
+    {
+      "from": 131,
+      "to": 127
+    },
+    {
+      "from": 132,
+      "to": 131
+    },
+    {
+      "from": 132,
+      "to": 88
+    },
+    {
+      "from": 133,
+      "to": 127
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 127
+    },
+    {
+      "from": 136,
+      "to": 126
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 113
+    },
+    {
+      "from": 138,
+      "to": 137
+    },
+    {
+      "from": 139,
+      "to": 5
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 141
+    },
+    {
+      "from": 143,
+      "to": 140
+    },
+    {
+      "from": 144,
+      "to": 141
+    },
+    {
+      "from": 144,
+      "to": 143
+    },
+    {
+      "from": 145,
+      "to": 143
+    },
+    {
+      "from": 146,
+      "to": 144
+    },
+    {
+      "from": 147,
+      "to": 146
+    },
+    {
+      "from": 148,
+      "to": 143
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 149
+    },
+    {
+      "from": 151,
+      "to": 70
+    },
+    {
+      "from": 152,
+      "to": 151
+    },
+    {
+      "from": 152,
+      "to": 72
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 155,
+      "to": 61
+    },
+    {
+      "from": 156,
+      "to": 155
+    },
+    {
+      "from": 156,
+      "to": 67
+    },
+    {
+      "from": 157,
+      "to": 155
+    },
+    {
+      "from": 157,
+      "to": 66
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 154
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 160,
+      "to": 99
+    },
+    {
+      "from": 161,
+      "to": 160
+    },
+    {
+      "from": 162,
+      "to": 161
+    },
+    {
+      "from": 162,
+      "to": 152
+    },
+    {
+      "from": 163,
+      "to": 18
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 164
+    },
+    {
+      "from": 165,
+      "to": 30
+    },
+    {
+      "from": 166,
+      "to": 30
+    },
+    {
+      "from": 167,
+      "to": 164
+    },
+    {
+      "from": 168,
+      "to": 98
+    },
+    {
+      "from": 169,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 169
+    },
+    {
+      "from": 171,
+      "to": 169
+    },
+    {
+      "from": 172,
+      "to": 168
+    },
+    {
+      "from": 173,
+      "to": 168
+    },
+    {
+      "from": 174,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 173
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 168
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 179,
+      "to": 177
+    },
+    {
+      "from": 180,
+      "to": 168
+    },
+    {
+      "from": 180,
+      "to": 105
+    },
+    {
+      "from": 181,
+      "to": 170
+    },
+    {
+      "from": 182,
+      "to": 180
+    },
+    {
+      "from": 183,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 182
+    },
+    {
+      "from": 184,
+      "to": 170
+    },
+    {
+      "from": 184,
+      "to": 7
+    },
+    {
+      "from": 185,
+      "to": 171
+    },
+    {
+      "from": 185,
+      "to": 6
+    },
+    {
+      "from": 186,
+      "to": 184
+    },
+    {
+      "from": 187,
+      "to": 185
+    },
+    {
+      "from": 188,
+      "to": 184
+    },
+    {
+      "from": 188,
+      "to": 105
+    },
+    {
+      "from": 189,
+      "to": 185
+    },
+    {
+      "from": 189,
+      "to": 181
+    },
+    {
+      "from": 190,
+      "to": 170
+    },
+    {
+      "from": 190,
+      "to": 7
+    },
+    {
+      "from": 191,
+      "to": 181
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 174
+    },
+    {
+      "from": 194,
+      "to": 174
+    },
+    {
+      "from": 194,
+      "to": 141
+    },
+    {
+      "from": 195,
+      "to": 194
+    },
+    {
+      "from": 196,
+      "to": 191
+    },
+    {
+      "from": 196,
+      "to": 175
+    },
+    {
+      "from": 197,
+      "to": 175
+    },
+    {
+      "from": 197,
+      "to": 181
+    },
+    {
+      "from": 198,
+      "to": 178
+    },
+    {
+      "from": 199,
+      "to": 198
+    },
+    {
+      "from": 200,
+      "to": 177
+    },
+    {
+      "from": 201,
+      "to": 200
+    },
+    {
+      "from": 201,
+      "to": 167
+    },
+    {
+      "from": 202,
+      "to": 177
+    },
+    {
+      "from": 203,
+      "to": 200
+    },
+    {
+      "from": 203,
+      "to": 202
+    },
+    {
+      "from": 204,
+      "to": 179
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 204
+    },
+    {
+      "from": 207,
+      "to": 178
+    },
+    {
+      "from": 208,
+      "to": 56
+    },
+    {
+      "from": 209,
+      "to": 208
+    },
+    {
+      "from": 210,
+      "to": 208
+    },
+    {
+      "from": 211,
+      "to": 210
+    },
+    {
+      "from": 212,
+      "to": 211
+    },
+    {
+      "from": 212,
+      "to": 57
+    },
+    {
+      "from": 213,
+      "to": 212
+    },
+    {
+      "from": 214,
+      "to": 213
+    },
+    {
+      "from": 215,
+      "to": 212
+    },
+    {
+      "from": 216,
+      "to": 215
+    },
+    {
+      "from": 216,
+      "to": 164
+    },
+    {
+      "from": 217,
+      "to": 216
+    },
+    {
+      "from": 218,
+      "to": 211
+    },
+    {
+      "from": 219,
+      "to": 218
+    },
+    {
+      "from": 220,
+      "to": 211
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 222,
+      "to": 218
+    },
+    {
+      "from": 222,
+      "to": 215
+    },
+    {
+      "from": 223,
+      "to": 222
+    },
+    {
+      "from": 224,
+      "to": 11
+    },
+    {
+      "from": 225,
+      "to": 224
+    },
+    {
+      "from": 226,
+      "to": 225
+    },
+    {
+      "from": 227,
+      "to": 70
+    },
+    {
+      "from": 228,
+      "to": 227
+    },
+    {
+      "from": 228,
+      "to": 224
+    },
+    {
+      "from": 229,
+      "to": 228
+    },
+    {
+      "from": 230,
+      "to": 225
+    },
+    {
+      "from": 231,
+      "to": 230
+    },
+    {
+      "from": 232,
+      "to": 30
+    },
+    {
+      "from": 232,
+      "to": 225
+    },
+    {
+      "from": 233,
+      "to": 232
+    },
+    {
+      "from": 233,
+      "to": 105
+    },
+    {
+      "from": 234,
+      "to": 232
+    },
+    {
+      "from": 235,
+      "to": 234
+    },
+    {
+      "from": 236,
+      "to": 232
+    },
+    {
+      "from": 237,
+      "to": 232
+    },
+    {
+      "from": 238,
+      "to": 237
+    },
+    {
+      "from": 239,
+      "to": 225
+    },
+    {
+      "from": 239,
+      "to": 230
+    },
+    {
+      "from": 240,
+      "to": 225
+    },
+    {
+      "from": 241,
+      "to": 240
+    },
+    {
+      "from": 242,
+      "to": 241
+    }
+  ]
+}

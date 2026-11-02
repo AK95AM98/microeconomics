@@ -1,0 +1,243 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Scarcity,,FOUND
+2,Choice,1,FOUND
+3,Opportunity Cost,1|2,FOUND
+4,Sunk Cost,3,FOUND
+5,Marginal Analysis,3,FOUND
+6,Marginal Benefit,5,FOUND
+7,Marginal Cost,5,FOUND
+8,Production Frontier,1|2,FOUND
+9,Productive Efficiency,8,FOUND
+10,Increasing Opportunity Cost,8,FOUND
+11,Comparative Advantage,3,FOUND
+12,Absolute Advantage,11,FOUND
+13,Specialization,11,FOUND
+14,Ceteris Paribus,1,FOUND
+15,Positive Economics,14,FOUND
+16,Normative Economics,15,FOUND
+17,Economic Model,14,FOUND
+18,Market,1,SUPDEM
+19,Demand,18,SUPDEM
+20,Law of Demand,19,SUPDEM
+21,Demand Curve,20,SUPDEM
+22,Quantity Demanded,21,SUPDEM
+23,Determinants of Demand,21,SUPDEM
+24,Change in Demand,23,SUPDEM
+25,Supply,18,SUPDEM
+26,Law of Supply,25,SUPDEM
+27,Supply Curve,26,SUPDEM
+28,Determinants of Supply,27,SUPDEM
+29,Change in Supply,28,SUPDEM
+30,Market Equilibrium,21|27,SUPDEM
+31,Equilibrium Price,30,SUPDEM
+32,Equilibrium Quantity,30,SUPDEM
+33,Market Surplus,30,SUPDEM
+34,Market Shortage,30,SUPDEM
+35,Consumer Surplus,21|6,SUPDEM
+36,Producer Surplus,27|7,SUPDEM
+37,Total Surplus,35|36,SUPDEM
+38,Normal Good,23,SUPDEM
+39,Inferior Good,23,SUPDEM
+40,Substitute Goods,23,SUPDEM
+41,Complement Goods,23,SUPDEM
+42,Elasticity,30,ELAS
+43,Price Elasticity of Demand,42|21,ELAS
+44,Midpoint Elasticity Formula,43,ELAS
+45,Elastic Demand,43,ELAS
+46,Inelastic Demand,43,ELAS
+47,Unit-Elastic Demand,43,ELAS
+48,Perfectly Inelastic Demand,46,ELAS
+49,Perfectly Elastic Demand,45,ELAS
+50,Determinants of Price Elasticity,43,ELAS
+51,Total Revenue Test,45|46,ELAS
+52,Price Elasticity of Supply,42|27,ELAS
+53,Income Elasticity of Demand,42|38,ELAS
+54,Cross-Price Elasticity of Demand,42|40,ELAS
+55,Tax Incidence,43|52,ELAS
+56,Utility,5,CONS
+57,Total Utility,56,CONS
+58,Marginal Utility,57,CONS
+59,Diminishing Marginal Utility,58,CONS
+60,Equal Marginal Principle,58|5,CONS
+61,Budget Constraint,18,CONS
+62,Indifference Curve,56,CONS
+63,Marginal Rate of Substitution,62,CONS
+64,Consumer Optimum,61|62,CONS
+65,Tangency Condition,64|63,CONS
+66,Income Effect,64,CONS
+67,Substitution Effect,64,CONS
+68,Giffen Good,66,CONS
+69,Demand Curve Derivation,65|21,CONS
+70,Production Function,5,PROD
+71,Total Product,70,PROD
+72,Marginal Product,71,PROD
+73,Average Product,71,PROD
+74,Diminishing Marginal Returns,72,PROD
+75,Short Run,70,PROD
+76,Long Run,70,PROD
+77,Fixed Cost,75,PROD
+78,Variable Cost,75,PROD
+79,Total Cost,77|78,PROD
+80,Average Fixed Cost,77,PROD
+81,Average Variable Cost,78,PROD
+82,Average Total Cost,79,PROD
+83,Short-Run Marginal Cost,79|7,PROD
+84,Long-Run Average Cost,82|76,PROD
+85,Economies of Scale,84,PROD
+86,Diseconomies of Scale,85,PROD
+87,Minimum Efficient Scale,85,PROD
+88,Perfect Competition,30,PCOMP
+89,Price Taker,88,PCOMP
+90,Marginal Revenue,89,PCOMP
+91,MR Equals MC Rule,90|83,PCOMP
+92,Shutdown Rule,91|81,PCOMP
+93,Short-Run Firm Supply Curve,92,PCOMP
+94,Short-Run Industry Supply Curve,93,PCOMP
+95,Economic Profit,79,PCOMP
+96,Accounting Profit,95,PCOMP
+97,Long-Run Competitive Equilibrium,95|84,PCOMP
+98,Allocative Efficiency,97|37,PCOMP
+99,Monopoly,88,MONOP
+100,Barrier to Entry,99,MONOP
+101,Natural Monopoly,100|85,MONOP
+102,Price Maker,99,MONOP
+103,Monopolist Marginal Revenue,90|102,MONOP
+104,Monopoly Profit Maximization,103|83,MONOP
+105,Deadweight Loss,104|37,MONOP
+106,Price Discrimination,103,MONOP
+107,First-Degree Discrimination,106,MONOP
+108,Second-Degree Discrimination,106,MONOP
+109,Third-Degree Discrimination,106|43,MONOP
+110,Arbitrage,106,MONOP
+111,Marginal-Cost Pricing Regulation,101|105,MONOP
+112,Average-Cost Pricing Regulation,101|96,MONOP
+113,Antitrust Policy,99,MONOP
+114,Sherman Antitrust Act,113,MONOP
+115,Monopolistic Competition,88|99,MCOMP
+116,Product Differentiation,115,MCOMP
+117,Brand Loyalty,116,MCOMP
+118,Monopolistic Short-Run Profit,115|103,MCOMP
+119,Monopolistic Zero Profit,118|97,MCOMP
+120,Markup Over Marginal Cost,119,MCOMP
+121,Excess Capacity,120|87,MCOMP
+122,Non-Price Competition,116,MCOMP
+123,Informative Advertising,122,MCOMP
+124,Persuasive Advertising,122,MCOMP
+125,Product Variety,121,MCOMP
+126,Oligopoly,88|99,OLIG
+127,Strategic Interdependence,126,OLIG
+128,Cournot Model,127,OLIG
+129,Cournot Best-Response Function,128,OLIG
+130,Cournot-Nash Equilibrium,129|143,OLIG
+131,Bertrand Model,127,OLIG
+132,Bertrand Paradox,131|88,OLIG
+133,Collusion,127,OLIG
+134,Cartel,133,OLIG
+135,Kinked Demand Curve,127,OLIG
+136,Concentration Ratio,126,OLIG
+137,Herfindahl-Hirschman Index,136,OLIG
+138,Oligopoly Antitrust Policy,113|137,OLIG
+139,Game,5,GAME
+140,Payoff Matrix,139,GAME
+141,Dominant Strategy,140,GAME
+142,Dominated Strategy,141,GAME
+143,Nash Equilibrium,140,GAME
+144,Prisoners Dilemma,141|143,GAME
+145,Coordination Game,143,GAME
+146,Repeated Game,144,GAME
+147,Tit-for-Tat Strategy,146,GAME
+148,Sequential Game,143,GAME
+149,Backward Induction,148,GAME
+150,Non-Credible Threat,149,GAME
+151,Derived Demand,70,FACTOR
+152,Marginal Revenue Product,151|72,FACTOR
+153,Labor Hiring Rule,152,FACTOR
+154,Labor Demand Curve,153,FACTOR
+155,Work-Leisure Trade-off,61,FACTOR
+156,Labor Supply Substitution Effect,155|67,FACTOR
+157,Labor Supply Income Effect,155|66,FACTOR
+158,Backward-Bending Labor Supply,157,FACTOR
+159,Labor Market Equilibrium,154|158,FACTOR
+160,Monopsony,159|99,FACTOR
+161,Marginal Cost of Labor,160,FACTOR
+162,Monopsony Hiring Rule,161|152,FACTOR
+163,Interest Rate,18,FACTOR
+164,Present Value,163,FACTOR
+165,Loanable Funds Market,164|30,FACTOR
+166,Economic Rent,30,FACTOR
+167,Human Capital,164,FACTOR
+168,Market Failure,98,MKTFAIL
+169,Externality,168,MKTFAIL
+170,Negative Externality,169,MKTFAIL
+171,Positive Externality,169,MKTFAIL
+172,Excludability,168,MKTFAIL
+173,Rivalry,168,MKTFAIL
+174,Public Good,172|173,MKTFAIL
+175,Common-Pool Resource,173,MKTFAIL
+176,Tragedy of the Commons,175,MKTFAIL
+177,Information Asymmetry,168,MKTFAIL
+178,Adverse Selection,177,MKTFAIL
+179,Moral Hazard,177,MKTFAIL
+180,Market Power as Failure,168|105,MKTFAIL
+181,Pigouvian Tax,170,MKTFAIL
+182,Rent-Seeking,180,MKTFAIL
+183,Government Failure,181|182,MKTFAIL
+184,Social Marginal Cost,170|7,EXTPUB
+185,Social Marginal Benefit,171|6,EXTPUB
+186,Marginal External Cost,184,EXTPUB
+187,Marginal External Benefit,185,EXTPUB
+188,Externality Deadweight Loss,184|105,EXTPUB
+189,Pigouvian Subsidy,185|181,EXTPUB
+190,Coase Theorem,170|7,EXTPUB
+191,Cap-and-Trade,181,EXTPUB
+192,Marginal Abatement Cost,191,EXTPUB
+193,Samuelson Condition,174,EXTPUB
+194,Free-Rider Problem,174|141,EXTPUB
+195,Median Voter Theorem,194,EXTPUB
+196,Individual Transferable Quota,191|175,EXTPUB
+197,Congestion Pricing,175|181,EXTPUB
+198,Market for Lemons,178,INFO
+199,Adverse Selection Death Spiral,198,INFO
+200,Signaling,177,INFO
+201,Education Signaling Model,200|167,INFO
+202,Screening,177,INFO
+203,Separating Equilibrium,200|202,INFO
+204,Principal-Agent Problem,179,INFO
+205,Incentive Compatibility,204,INFO
+206,Agency Cost,204,INFO
+207,Credit Rationing,178,INFO
+208,Bounded Rationality,56,BEHAV
+209,Satisficing,208,BEHAV
+210,Heuristic,208,BEHAV
+211,Cognitive Bias,210,BEHAV
+212,Prospect Theory,211|57,BEHAV
+213,Loss Aversion,212,BEHAV
+214,Endowment Effect,213,BEHAV
+215,Present Bias,212,BEHAV
+216,Hyperbolic Discounting,215|164,BEHAV
+217,Time Inconsistency,216,BEHAV
+218,Framing Effect,211,BEHAV
+219,Mental Accounting,218,BEHAV
+220,Social Preferences,211,BEHAV
+221,Inequity Aversion,220,BEHAV
+222,Nudge,218|215,BEHAV
+223,Libertarian Paternalism,222,BEHAV
+224,Ricardian Trade Model,11,TRADE
+225,Gains From Trade,224,TRADE
+226,Terms of Trade,225,TRADE
+227,Factor Endowment,70,TRADE
+228,Heckscher-Ohlin Model,227|224,TRADE
+229,Factor-Price Equalization,228,TRADE
+230,Trade Winners and Losers,225,TRADE
+231,Trade Adjustment Assistance,230,TRADE
+232,Tariff,30|225,TRADE
+233,Tariff Welfare Loss,232|105,TRADE
+234,Import Quota,232,TRADE
+235,Quota Rent,234,TRADE
+236,World Trade Organization,232,TRADE
+237,Infant Industry Argument,232,TRADE
+238,Protectionism,237,TRADE
+239,Globalization,225|230,TRADE
+240,Trade Deficit,225,TRADE
+241,Balance of Payments,240,TRADE
+242,Current Account,241,TRADE
