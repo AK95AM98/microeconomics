@@ -24,51 +24,67 @@ nav:
     - 1. Introduction to Microeconomics:
       - Content: chapters/01-introduction-to-microeconomics/index.md
       - Quiz: chapters/01-introduction-to-microeconomics/quiz.md
+      - Annotated References: chapters/01-introduction-to-microeconomics/references.md
     - 2. Supply and Demand:
       - Content: chapters/02-supply-and-demand/index.md
       - Quiz: chapters/02-supply-and-demand/quiz.md
+      - Annotated References: chapters/02-supply-and-demand/references.md
     - 3. Elasticity:
       - Content: chapters/03-elasticity/index.md
       - Quiz: chapters/03-elasticity/quiz.md
+      - Annotated References: chapters/03-elasticity/references.md
     - 4. Consumer Theory:
       - Content: chapters/04-consumer-theory/index.md
       - Quiz: chapters/04-consumer-theory/quiz.md
+      - Annotated References: chapters/04-consumer-theory/references.md
     - 5. Production and Costs:
       - Content: chapters/05-production-and-costs/index.md
       - Quiz: chapters/05-production-and-costs/quiz.md
+      - Annotated References: chapters/05-production-and-costs/references.md
     - 6. Perfect Competition:
       - Content: chapters/06-perfect-competition/index.md
       - Quiz: chapters/06-perfect-competition/quiz.md
+      - Annotated References: chapters/06-perfect-competition/references.md
     - 7. Monopoly:
       - Content: chapters/07-monopoly/index.md
       - Quiz: chapters/07-monopoly/quiz.md
+      - Annotated References: chapters/07-monopoly/references.md
     - 8. Monopolistic Competition:
       - Content: chapters/08-monopolistic-competition/index.md
       - Quiz: chapters/08-monopolistic-competition/quiz.md
+      - Annotated References: chapters/08-monopolistic-competition/references.md
     - 9. Oligopoly:
       - Content: chapters/09-oligopoly/index.md
       - Quiz: chapters/09-oligopoly/quiz.md
+      - Annotated References: chapters/09-oligopoly/references.md
     - 10. Game Theory:
       - Content: chapters/10-game-theory/index.md
       - Quiz: chapters/10-game-theory/quiz.md
+      - Annotated References: chapters/10-game-theory/references.md
     - 11. Factor Markets:
       - Content: chapters/11-factor-markets/index.md
       - Quiz: chapters/11-factor-markets/quiz.md
+      - Annotated References: chapters/11-factor-markets/references.md
     - 12. Market Failures:
       - Content: chapters/12-market-failures/index.md
       - Quiz: chapters/12-market-failures/quiz.md
+      - Annotated References: chapters/12-market-failures/references.md
     - 13. Externalities and Public Goods:
       - Content: chapters/13-externalities-and-public-goods/index.md
       - Quiz: chapters/13-externalities-and-public-goods/quiz.md
+      - Annotated References: chapters/13-externalities-and-public-goods/references.md
     - 14. Information Economics:
       - Content: chapters/14-information-economics/index.md
       - Quiz: chapters/14-information-economics/quiz.md
+      - Annotated References: chapters/14-information-economics/references.md
     - 15. Behavioral Economics:
       - Content: chapters/15-behavioral-economics/index.md
       - Quiz: chapters/15-behavioral-economics/quiz.md
+      - Annotated References: chapters/15-behavioral-economics/references.md
     - 16. International Trade:
       - Content: chapters/16-international-trade/index.md
       - Quiz: chapters/16-international-trade/quiz.md
+      - Annotated References: chapters/16-international-trade/references.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
