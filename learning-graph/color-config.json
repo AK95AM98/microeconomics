@@ -1,0 +1,18 @@
+{
+  "FOUND": "SteelBlue",
+  "SUPDEM": "DarkSlateBlue",
+  "ELAS": "DarkGreen",
+  "CONS": "LimeGreen",
+  "PROD": "Gold",
+  "PCOMP": "DarkGoldenrod",
+  "MONOP": "Khaki",
+  "MCOMP": "Teal",
+  "OLIG": "DodgerBlue",
+  "GAME": "LightSkyBlue",
+  "FACTOR": "Crimson",
+  "MKTFAIL": "DarkRed",
+  "EXTPUB": "MediumPurple",
+  "INFO": "Indigo",
+  "BEHAV": "DarkOrchid",
+  "TRADE": "HotPink"
+}

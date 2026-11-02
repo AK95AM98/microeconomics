@@ -1,0 +1,10 @@
+{
+  "title": "ECON 1101: Principles of Microeconomics",
+  "description": "A learning graph for an undergraduate principles of microeconomics course covering scarcity and opportunity cost, supply and demand, elasticity, consumer and producer theory, market structures, game theory, factor markets, market failures, information economics, behavioral economics, and international trade.",
+  "creator": "Prof. Sharat Batra, University of Minnesota",
+  "date": "2026-11-01",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

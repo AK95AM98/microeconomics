@@ -1,0 +1,18 @@
+{
+  "FOUND": "Foundations",
+  "SUPDEM": "Supply and Demand",
+  "ELAS": "Elasticity",
+  "CONS": "Consumer Theory",
+  "PROD": "Production and Costs",
+  "PCOMP": "Perfect Competition",
+  "MONOP": "Monopoly",
+  "MCOMP": "Monopolistic Competition",
+  "OLIG": "Oligopoly",
+  "GAME": "Game Theory",
+  "FACTOR": "Factor Markets",
+  "MKTFAIL": "Market Failures",
+  "EXTPUB": "Externalities and Public Goods",
+  "INFO": "Information Economics",
+  "BEHAV": "Behavioral Economics",
+  "TRADE": "International Trade"
+}
