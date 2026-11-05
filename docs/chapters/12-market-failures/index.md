@@ -189,6 +189,54 @@ Government intervention is not automatically an improvement over the market outc
 !!! warning "Market failure does not imply government success"
     The existence of a market failure is a *necessary* but not *sufficient* condition for government intervention to improve welfare. Economists compare the costs of the market failure against the costs of likely government failure before recommending intervention — sometimes "do nothing" is still the best available option.
 
+#### Diagram: Market Failure Misallocation Explorer
+
+<details markdown="1">
+<summary>Market Failure Misallocation Explorer</summary>
+Type: microsim
+**sim-id:** market-failure-misallocation<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare the deadweight loss at three traded quantities to the deadweight loss at the socially efficient quantity, for a given marginal social benefit and marginal social cost curve.
+
+**Prerequisites:** market failure, marginal social benefit, marginal social cost, deadweight loss (Section 12.2).
+
+**Evidence of Mastery:** For 3 challenge quantities, in fixed order, the learner computes the deadweight loss to within ±\$5 of the formula value. Correct for all 3. Mastery is 3 of 3 correct.
+
+**Misconceptions:** (1) Believing deadweight loss is zero whenever trade still occurs. (2) Believing only overproduction creates deadweight loss, ignoring that underproduction also creates it. (3) Computing the triangle's area using the full MSB or MSC value instead of the vertical gap between them.
+
+**Instructional Rationale:** An Analyze-level task asks the learner to compare the traded quantity to the efficient benchmark and compute the consequence, rather than simply stating the definition of market failure.
+
+**Content:**
+
+Marginal social benefit MSB(Q) = 100 − Q; marginal social cost MSC(Q) = 20 + Q (dollars per unit). Efficient quantity Q* = 40, P* = \$60 (where MSB=MSC).
+
+| Quantity Q | MSB(Q) | MSC(Q) | Deadweight loss = (Q−40)² |
+|---|---|---|---|
+| 20 (underproduction) | \$80 | \$40 | \$400 |
+| 30 (underproduction) | \$70 | \$50 | \$100 |
+| 60 (overproduction) | \$40 | \$80 | \$400 |
+
+**Provenance:** Illustrative. MSB=100−Q and MSC=20+Q are constructed linear curves chosen to give a clean efficient quantity (Q*=40, P*=\$60), consistent with the general deadweight-loss concept introduced qualitatively in Section 12.2 and developed numerically in Chapter 13.
+
+**Rules:** DWL(Q) = ½ × |Q − 40| × |MSB(Q) − MSC(Q)|, which simplifies to (Q−40)² for these two linear curves. Traded quantity Q: min 0, max 80, step 5, default 40 (the efficient quantity).
+
+**Learner Activity:**
+
+1. The learner moves the Quantity slider away from the default Q=40 and watches the MSB and MSC lines, the current quantity marker, and a shaded deadweight-loss triangle (when Q≠40) update.
+2. The learner sets Q=20 and types the resulting deadweight loss before it is revealed.
+3. The sim checks the value and shows the shaded triangle with its base and height labeled.
+4. The learner repeats for Q=30 and Q=60, in order.
+
+**Feedback:** 3 scored challenges, fixed order, two attempts each. Correct: "Correct: DWL ≈ \$<value>." Incorrect (first attempt): "Find the gap between MSB and MSC at this quantity, then use ½ × base × height." After the second wrong attempt, the correct DWL and shaded triangle are shown. A running count "Challenges correct: n of 3" is shown.
+
+**Starting State:** Q is set to the efficient quantity Q*=40, where MSB=MSC=\$60 and no deadweight-loss triangle is shown. The question on screen is "Move the quantity away from 40 — what happens to the shaded triangle?"
+
+**Chapter Anchors:** none — the chapter's Section 12.2 explains market failure and externalities qualitatively but states no specific MSB/MSC functions or numbers; the sim's curves are illustrative.
+</details>
+
 ---
 
 ## Key Terms

@@ -187,6 +187,65 @@ Economists try to keep these separate. A positive analysis of the minimum wage d
     ![Professor Owl sharing a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     Here's a fast test: if you could, in principle, settle the claim with data, it's positive. If settling it requires someone's values, it's normative. Run every statement in Problem 5 through that test before you check the solution.
 
+#### Diagram: Production Possibilities Frontier Explorer
+
+<details markdown="1">
+<summary>Production Possibilities Frontier Explorer</summary>
+Type: microsim
+**sim-id:** ppf-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** calculate<br/>
+**Learning Objective:** The learner will calculate the opportunity cost of producing one more unit of wheat when moving between two adjacent points on the chapter's wheat-computers production possibilities frontier.
+
+**Prerequisites:** Production Possibilities Frontier, opportunity cost, law of increasing opportunity cost (all defined in Section 1.4).
+
+**Evidence of Mastery:** For 3 fixed point-to-point transitions, the learner types the opportunity cost of the next unit of wheat (computers given up per unit of wheat gained) before the value is revealed. Correct when within ±0.05 computers of the table-derived value. Mastery is 3 of 3 correct.
+
+**Misconceptions:** (1) Opportunity cost is constant everywhere along the PPF. (2) Moving along the PPF has no cost because nothing is produced from nothing — it ignores that the cost is the other good given up, not money. (3) The bowed shape means some labeled points are unreachable.
+
+**Instructional Rationale:** Apply-level calculation needs a committed value before the answer is shown, so three transitions are scored as fixed challenges before the learner moves freely along the frontier.
+
+**Content:**
+
+The five labeled production possibilities, exactly as given in Section 1.4:
+
+| Point | Wheat (millions of bushels) | Computers (millions of units) |
+|---|---|---|
+| A | 0 | 30 |
+| B | 5 | 27 |
+| C | 10 | 21 |
+| D | 15 | 12 |
+| E | 18 | 0 |
+
+The three scored transitions, in fixed order, with the opportunity cost of one more unit of wheat (computers given up per wheat unit gained):
+
+| # | Transition | ΔWheat | ΔComputers | Opportunity cost of 1 wheat |
+|---|---|---|---|---|
+| 1 | A → B | 5 | −3 | 0.6 computers |
+| 2 | C → D | 5 | −9 | 1.8 computers |
+| 3 | D → E | 3 | −12 | 4.0 computers |
+
+**Provenance:** From the chapter's own "Constructing the PPF" worked example in Section 1.4 (the wheat/computers table for points A–E).
+
+**Rules:** The current point is selected from the 5 labeled points only (A, B, C, D, E — an index from 1 to 5, step 1, default 3 = point C). The opportunity cost of one more unit of wheat between two adjacent points = |ΔComputers| / ΔWheat, computed from the table values for those two points exactly; no interpolation between non-adjacent points is offered.
+
+**Learner Activity:**
+
+1. The learner sees all five points plotted and labeled (A–E) with the frontier connecting them, and a marker at the current point.
+2. The learner is shown transition 1 (A → B) and types the opportunity cost of the next unit of wheat.
+3. The sim checks the answer against 0.6 and reveals the computation.
+4. The learner repeats for transitions 2 (C → D) and 3 (D → E), in order.
+5. After all three, the learner can move the point index freely from A to E and read the opportunity cost of each adjacent transition, including the increasing sequence 0.6 → 1.2 → 1.8 → 4.0.
+
+**Feedback:** 3 transitions, fixed order, two attempts each. Correct: "Correct: moving from <point> to <point> costs <value> computers per unit of wheat." Incorrect (first attempt): "Divide the computers given up by the wheat gained between these two points." After the second wrong attempt, the worked calculation is shown and the transition counts as missed. A running count "Transitions correct: n of 3" is shown.
+
+**Starting State:** All five points are plotted with the marker at point C. The question on screen is "If this economy moves from point A to point B, how many computers must it give up to gain one more unit of wheat?"
+
+**Chapter Anchors:** none — the chapter's prose makes no numeric claim about this interactive sim specifically; its point values are drawn from the PPF table in Section 1.4 (see Provenance).
+</details>
+
 ---
 
 ## Key Terms

@@ -250,6 +250,53 @@ Farm goods tend to have inelastic demand (necessities with few substitutes) and,
 !!! warning "Elasticity is not fixed"
     A good's elasticity is not an immutable property, but depends on the price range, the time horizon, and how the good's market is defined. Always identify these conditions before applying an elasticity estimate to a new situation.
 
+#### Diagram: Price Elasticity of Demand Explorer
+
+<details markdown="1">
+<summary>Price Elasticity of Demand Explorer</summary>
+Type: microsim
+**sim-id:** elasticity-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** calculate<br/>
+**Learning Objective:** The learner will calculate the price elasticity of demand using the midpoint formula for a given price-quantity change, and classify the result as elastic, unit-elastic, or inelastic.
+
+**Prerequisites:** price elasticity of demand, the midpoint (arc elasticity) formula, elastic/inelastic/unit-elastic classification (Sections 3.2–3.3).
+
+**Evidence of Mastery:** For each of 4 challenges, the learner types the computed |Ed| (within ±0.05) and picks elastic/inelastic/unit-elastic. Correct when both match. Mastery is 4 of 4 correct.
+
+**Misconceptions:** (1) Using the simple percentage formula's base (P1, Q1 only) instead of the midpoint convention. (2) Forgetting to take the absolute value of Ed before classifying. (3) Classifying by the sign of %ΔQ rather than the magnitude of the ratio.
+
+**Instructional Rationale:** Apply-level calculation needs repeated practice applying the exact midpoint formula to new numbers, with immediate numeric feedback, before generalizing to classification language.
+
+**Content:**
+
+| # | P1 | P2 | Q1 | Q2 | %ΔP | %ΔQ | &#124;Ed&#124; | Classification |
+|---|---|---|---|---|---|---|---|---|
+| 1 | \$10 | \$12 | 1000 | 900 | 18.18% | −10.53% | 0.58 | Inelastic |
+| 2 | \$20 | \$22 | 500 | 350 | 9.52% | −35.29% | 3.71 | Elastic |
+| 3 | \$50 | \$55 | 200 | 190 | 9.52% | −5.13% | 0.54 | Inelastic |
+| 4 | \$9 | \$11 | 110 | 90 | 20.00% | −20.00% | 1.00 | Unit-elastic |
+
+**Provenance:** Challenge 1 is the chapter's own worked example in Section 3.2 ("Midpoint formula applied"). Challenges 2–4 are illustrative numbers built with the same midpoint formula to produce one elastic, one inelastic, and one exactly unit-elastic case; labeled illustrative.
+
+**Rules:** %ΔQ = (Q2−Q1) / ((Q1+Q2)/2); %ΔP = (P2−P1) / ((P1+P2)/2); Ed = %ΔQ / %ΔP. Classification: |Ed| > 1 → elastic; |Ed| < 1 → inelastic; |Ed| = 1 within ±0.05 → unit-elastic. The Challenge selector is discrete, 1 to 4, step 1, default 1.
+
+**Learner Activity:**
+
+1. The learner reads Challenge 1 (the chapter's own ticket numbers) and types the computed |Ed|, then picks a classification.
+2. The sim checks the number (±0.05) and the classification and shows the correct value.
+3. The learner repeats for Challenges 2–4, in order.
+4. After all 4, a free-input mode unlocks: the learner can type any P1, P2, Q1, Q2 and see the computed |Ed| and classification.
+
+**Feedback:** 4 challenges, fixed order, two attempts each. Correct: "Correct: &#124;Ed&#124; = <value>, which is <classification>." Incorrect (first attempt): "Use the average of Q1 and Q2 as the %ΔQ base, not just Q1." After the second wrong attempt, the correct value and classification are shown. A running count "Challenges correct: n of 4" is shown.
+
+**Starting State:** Challenge 1 is shown with P1 = \$10, P2 = \$12, Q1 = 1000, Q2 = 900, and empty answer boxes. The question on screen is "Using the midpoint formula, how elastic is this demand?"
+
+**Chapter Anchors:** The chapter's worked midpoint example states |Ed| = 0.58 for P1=10, P2=12, Q1=1000, Q2=900; the sim's Challenge 1 reproduces this exactly.
+</details>
+
 ---
 
 ## Key Terms

@@ -303,6 +303,55 @@ A competitive market maximizes total surplus — it is **allocatively efficient*
 !!! note "The invisible hand"
     Adam Smith (1776) observed that individuals pursuing their own self-interest in competitive markets are led by an "invisible hand" to promote the public interest. The supply-and-demand model formalizes this insight: competitive equilibrium maximizes total surplus.
 
+#### Diagram: Supply and Demand Equilibrium Explorer
+
+<details markdown="1">
+<summary>Supply and Demand Equilibrium Explorer</summary>
+Type: microsim
+**sim-id:** supply-demand-equilibrium<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** predict<br/>
+**Learning Objective:** The learner will predict the direction of change in equilibrium price and quantity after a stated demand or supply shock, using the chapter's linear demand and supply equations, before the new equilibrium is revealed.
+
+**Prerequisites:** market equilibrium, demand curve, supply curve, surplus, shortage (Sections 2.2–2.4).
+
+**Evidence of Mastery:** For each of 4 shock scenarios, in fixed order, the learner selects one of four directional predictions ("P up / Q up", "P up / Q down", "P down / Q up", "P down / Q down") before the new equilibrium is plotted. Correct when it matches the table below. Mastery is 4 of 4 correct.
+
+**Misconceptions:** (1) Believing both curves shift when only one shock is applied. (2) Believing any shift in demand or supply moves P and Q in the same direction (a supply shift moves them in opposite directions). (3) Confusing "supply increases" (a rightward shift, more supplied at every price) with a price increase.
+
+**Instructional Rationale:** Analyze-level work requires identifying which single curve moved and in which direction, then tracing the consequence — a locked-in prediction before the reveal is the evidence that the learner reasoned through the shift rather than watching curves move.
+
+**Content:**
+
+| Scenario | Demand | Supply | P* | Q* | ΔP | ΔQ |
+|---|---|---|---|---|---|---|
+| Base case | Qd = 100 − 2P | Qs = 10 + 3P | 18 | 64 | — | — |
+| 1. Demand increase | Qd = 130 − 2P | Qs = 10 + 3P | 24 | 82 | Up | Up |
+| 2. Demand decrease | Qd = 70 − 2P | Qs = 10 + 3P | 12 | 46 | Down | Down |
+| 3. Supply increase | Qd = 100 − 2P | Qs = 40 + 3P | 12 | 76 | Down | Up |
+| 4. Supply decrease | Qd = 100 − 2P | Qs = −20 + 3P | 24 | 52 | Up | Down |
+
+**Provenance:** The base case is the chapter's own "Mathematical Example" in Section 2.4 (Qd = 100 − 2P, Qs = 10 + 3P, P* = 18, Q* = 64). The four shock scenarios are illustrative extensions built by shifting one intercept by ±30; labeled illustrative.
+
+**Rules:** Equilibrium solves Qd = Qs for P and Q using the two linear equations shown for that scenario. For Qd = a − bP and Qs = c + dP, P* = (a − c) / (b + d) and Q* = a − bP*. The Shock selector is discrete: Base Case (0), Demand Increase (1), Demand Decrease (2), Supply Increase (3), Supply Decrease (4); min 0, max 4, step 1, default 0.
+
+**Learner Activity:**
+
+1. The learner sees the base-case demand and supply lines with the equilibrium marked at P = 18, Q = 64.
+2. The learner chooses one of the four shock scenarios.
+3. Before the new lines are drawn, the learner picks one of the four directional predictions for ΔP and ΔQ.
+4. The sim reveals the shifted curve, the new equilibrium point, and whether the prediction was correct.
+5. The learner repeats for the remaining scenarios, in the fixed order: Demand Increase, Demand Decrease, Supply Increase, Supply Decrease.
+
+**Feedback:** 4 scenarios, fixed order, one attempt each (only 4 discrete options are offered, so the answer is revealed immediately either way). Correct: "Correct: the <curve> shifted, moving equilibrium to P = <value>, Q = <value>." Incorrect: a message naming which curve actually moved and the correct direction. A running count "Scenarios correct: n of 4" is shown.
+
+**Starting State:** The base-case supply and demand lines are plotted with the equilibrium point marked at P = 18, Q = 64. The question on screen is "A shock is coming — pick a scenario, then predict what happens to price and quantity before you see the new equilibrium."
+
+**Chapter Anchors:** none — the chapter's own base case (P* = 18, Q* = 64) is reused exactly, but the chapter makes no numeric claim about the four shocked scenarios, which are new to this sim.
+</details>
+
 ---
 
 ## Key Terms

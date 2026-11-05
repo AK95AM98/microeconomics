@@ -240,6 +240,54 @@ Suppose a firm's 401(k) enrollment rate is only 40% under an **opt-in** design (
 !!! warning "Nudges are not always benign"
     The same tools that nudge people toward their own stated long-run interests (as judged by themselves) can also be used by firms to nudge people toward choices that serve the firm's interest instead — such as pre-checked boxes that enroll customers in costly add-ons, or defaults that make it easy to subscribe and hard to cancel ("dark patterns"). Evaluating any nudge requires asking **whose** interest it serves and whether it respects the chooser's own, true preferences.
 
+#### Diagram: Prospect Theory Value Function Explorer
+
+<details markdown="1">
+<summary>Prospect Theory Value Function Explorer</summary>
+Type: chart
+**sim-id:** prospect-theory-value-function<br/>
+**Library:** Plotly<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** illustrate<br/>
+**Learning Objective:** The learner will illustrate loss aversion by comparing the subjective value of a gain to the subjective value of an equal-sized loss, using the chapter's value function.
+
+**Prerequisites:** reference dependence, loss aversion, diminishing sensitivity, the prospect-theory value function v(x) (Section 15.3).
+
+**Evidence of Mastery:** For 2 additional magnitudes, the learner reads v(m) and v(−m) off the plotted curve to within ±0.5 and states the ratio |v(−m)|/v(m). Correct when both values and the ratio (=2.0) match. Mastery is 2 of 2 correct.
+
+**Misconceptions:** (1) Believing the loss-aversion ratio changes with the size of the gain/loss — it is constant at 2 for this particular value function. (2) Plugging a magnitude into both branches of the function instead of the gain branch for +m and the loss branch for −m. (3) Believing the value function is linear rather than concave for gains and convex for losses.
+
+**Instructional Rationale:** An Understand-level task asks the learner to illustrate the loss-aversion concept with specific computed values at a new magnitude, connecting the curve's shape to concrete numbers.
+
+**Content:**
+
+The chapter's own value function (Section 15.3): v(x) = x^0.5 for x ≥ 0 (gain); v(x) = −2(−x)^0.5 for x < 0 (loss).
+
+| Magnitude m | v(m) | v(−m) | Ratio &#124;v(−m)&#124; / v(m) |
+|---|---|---|---|
+| \$100 (base case) | 10.00 | −20.00 | 2.0 |
+| \$50 (challenge) | 7.07 | −14.14 | 2.0 |
+| \$200 (challenge) | 14.14 | −28.28 | 2.0 |
+
+**Provenance:** From the chapter's own "A Worked Example: The Value Function" in Section 15.3. The \$50 and \$200 challenge magnitudes apply the same stated value function; labeled illustrative extensions.
+
+**Rules:** v(x) = x^0.5 for x ≥ 0; v(x) = −2 × (−x)^0.5 for x < 0. The ratio |v(−m)|/v(m) = 2 exactly for every m > 0, by construction of this value function. Magnitude m: min \$10, max \$200, step \$10, default \$100.
+
+**Learner Activity:**
+
+1. The learner sets the magnitude to the chapter's own m=\$100 and sees v(100)=10 and v(−100)=−20 marked on the plotted curve, with the chapter's 50/50-gamble prospect value (−5) shown alongside.
+2. The learner sets the magnitude to \$50 and reads or types v(50) and v(−50) from the curve.
+3. The sim checks both values and the resulting ratio.
+4. The learner repeats for magnitude \$200.
+
+**Feedback:** 2 scored magnitudes, fixed order, two attempts each. Correct: "Correct: v(m) = <value>, v(−m) = <value>, ratio = 2.0." Incorrect (first attempt): "Use the gain branch x^0.5 for the positive value and the loss branch −2(−x)^0.5 for the negative value." After the second wrong attempt, the correct values are shown on the curve. A running count "Magnitudes correct: n of 2" is shown.
+
+**Starting State:** The value-function curve is plotted for x from −200 to 200, with the magnitude at \$100 and the points v(100)=10 and v(−100)=−20 marked, labeled "a loss feels about twice as large as an equal-sized gain." The question on screen is "At a magnitude of \$50 instead of \$100, is the loss-aversion ratio still 2-to-1?"
+
+**Chapter Anchors:** The chapter's Section 15.3 worked example states v(100)=10, v(−100)=−20, and a prospect value of −5 for a 50/50 ±\$100 gamble; the sim's base-case point reproduces these values exactly.
+</details>
+
 ---
 
 ## Key Terms

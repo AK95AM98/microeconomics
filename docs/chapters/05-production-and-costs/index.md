@@ -247,6 +247,58 @@ The size of the minimum efficient scale relative to the size of the overall mark
 !!! note "Preview: market structure"
     Minimum efficient scale is one of the key concepts that will reappear in Chapters 6 through 9 when we study how the number and size of firms in an industry — perfect competition, monopoly, monopolistic competition, and oligopoly — depend partly on the shape of the long-run average cost curve.
 
+#### Diagram: Short-Run Cost Curves Explorer
+
+<details markdown="1">
+<summary>Short-Run Cost Curves Explorer</summary>
+Type: microsim
+**sim-id:** cost-curves-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare marginal cost to average variable cost and average total cost at each output level to identify where MC crosses each average curve, using the chapter's own cost schedule.
+
+**Prerequisites:** fixed cost, variable cost, total cost, average fixed/variable/total cost, marginal cost, the MC–ATC/AVC crossing relationship (Sections 5.5–5.7).
+
+**Evidence of Mastery:** Two checks: (1) the learner identifies the output level where MC equals AVC in the table (correct: Q=4). (2) The learner determines whether ATC is still falling or has started rising at Q=5 by comparing MC(5) to ATC(5) (correct: falling, since MC=\$60 < ATC=\$64). Mastery is 2 of 2 correct.
+
+**Misconceptions:** (1) Believing AFC can rise as output rises — it always falls. (2) Believing MC, AVC, and ATC all reach their minimum at the same output level. (3) Treating MC at Q=0 as \$0 rather than undefined (there is no "0th" unit before Q=0).
+
+**Instructional Rationale:** Analyze-level work requires comparing curves against each other rather than reading one value at a time, so the task asks the learner to locate a crossing point relative to two curves at once.
+
+**Content:**
+
+The exact cost schedule from Sections 5.5–5.7:
+
+| Q | FC | VC | TC | AFC | AVC | ATC | MC |
+|---|---|---|---|---|---|---|---|
+| 0 | \$100 | \$0 | \$100 | — | — | — | — |
+| 1 | \$100 | \$50 | \$150 | \$100.00 | \$50.00 | \$150.00 | \$50 |
+| 2 | \$100 | \$90 | \$190 | \$50.00 | \$45.00 | \$95.00 | \$40 |
+| 3 | \$100 | \$120 | \$220 | \$33.33 | \$40.00 | \$73.33 | \$30 |
+| 4 | \$100 | \$160 | \$260 | \$25.00 | \$40.00 | \$65.00 | \$40 |
+| 5 | \$100 | \$220 | \$320 | \$20.00 | \$44.00 | \$64.00 | \$60 |
+
+**Provenance:** From the chapter's own "Cost Schedule Example" (Section 5.5) and the derived average-cost and marginal-cost tables in Sections 5.6–5.7.
+
+**Rules:** AFC = FC/Q; AVC = VC/Q; ATC = TC/Q = AFC + AVC; MC = ΔTC/ΔQ. MC crosses AVC and ATC at their respective minimum points. The Output Q slider: min 0, max 5, step 1, default 0.
+
+**Learner Activity:**
+
+1. The learner moves the Output Q slider from 0 to 5 and watches FC, VC, TC, AFC, AVC, ATC, and MC update to that row's exact values.
+2. The learner is asked at what Q value MC equals AVC in this table, and selects a value from 1 to 5.
+3. The sim checks the answer against Q=4 and shows the AVC and MC lines crossing there.
+4. The learner is asked whether ATC is still falling or has started rising at Q=5, by comparing MC(5) and ATC(5).
+5. The sim checks the answer using the stated MC/average rule.
+
+**Feedback:** 2 checks, fixed order, two attempts each. Correct: "Correct." with the specific comparison restated. Incorrect (first attempt): a hint restating the MC/average comparison rule. After the second wrong attempt, the correct answer and reasoning are shown. A running count "Checks correct: n of 2" is shown.
+
+**Starting State:** Output Q = 0 is shown, with FC=\$100, VC=\$0, TC=\$100, and AFC/AVC/ATC/MC all blank. The question on screen is "Move the slider to Q=1 to see the first average and marginal cost values appear."
+
+**Chapter Anchors:** The chapter's Sections 5.5–5.7 state FC=\$100 for all Q and give the exact VC, TC, and MC columns for Q=0–5 reproduced here; the sim's table matches these values exactly.
+</details>
+
 ---
 
 ## Key Terms

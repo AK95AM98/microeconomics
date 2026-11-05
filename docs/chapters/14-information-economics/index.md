@@ -265,6 +265,56 @@ Lenders screen borrowers using credit scores, collateral requirements, and down 
 
 Employers use probationary periods, performance bonuses, stock vesting schedules, and non-compete or training-repayment clauses to manage both moral hazard (motivating effort once hired) and adverse selection (screening for the right hires before offering a permanent role).
 
+#### Diagram: Market for Lemons Adverse Selection Explorer
+
+<details markdown="1">
+<summary>Market for Lemons Adverse Selection Explorer</summary>
+Type: microsim
+**sim-id:** market-for-lemons-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** predict<br/>
+**Learning Objective:** The learner will predict the market-clearing price after each round of the adverse-selection unraveling process, given new peach/lemon values and the half-peach, half-lemon starting mix.
+
+**Prerequisites:** adverse selection, asymmetric information, the market for lemons, the price-quality death spiral (Section 14.2).
+
+**Evidence of Mastery:** For the additional challenge, the learner computes the Round 0 price, determines whether peach sellers would participate at that price, and computes the final settled price. Correct: Round 0 = \$17,000, peach sellers refuse, final price = \$10,000. Mastery requires all 3 correct.
+
+**Misconceptions:** (1) Believing the market settles at the naive Round 0 expected-value price rather than continuing to unravel once one seller type exits. (2) Believing both quality types can still trade once peach sellers have refused to sell. (3) Using the seller's own value instead of the buyer's value to set the revised market price.
+
+**Instructional Rationale:** An Analyze-level task requires tracing a multi-round feedback process and predicting the next state from the current one, which is why each round's price must be predicted before the sim advances.
+
+**Content:**
+
+The chapter's own base case (Section 14.2): peaches worth \$10,000 to sellers, \$12,000 to buyers; lemons worth \$4,000 to sellers, \$5,000 to buyers; 50% of each type offered.
+
+| Round | Price | What happens |
+|---|---|---|
+| 0 | \$8,500 | Naive expected value = 0.5(12,000) + 0.5(5,000). Peach sellers (value \$10,000) refuse to sell. |
+| 1 (final) | \$5,000 | Only lemons remain; buyers pay the lemon buyer value. Lemon sellers (value \$4,000) still accept. Market settles here. |
+
+Challenge values: peaches worth \$20,000 to sellers, \$24,000 to buyers; lemons worth \$8,000 to sellers, \$10,000 to buyers; same 50/50 mix. Round 0 price = 0.5(24,000)+0.5(10,000) = \$17,000; peach sellers (value \$20,000) refuse; final settled price = \$10,000 (lemon buyer value), and lemon sellers (value \$8,000) accept.
+
+**Provenance:** From the chapter's own "Buyers' expected value" worked example and "The Death Spiral" in Section 14.2. The \$20,000/\$24,000 and \$8,000/\$10,000 challenge values are illustrative, using the same 50/50 mix and unraveling logic.
+
+**Rules:** Round 0 price = 0.5 × (peach buyer value) + 0.5 × (lemon buyer value). A seller type participates only if the current round's price is at or above that type's own seller value. If peach sellers would refuse at the Round 0 price while lemon sellers accept, the price revises to the lemon buyer value; the process stops once the sellers remaining at the current price are unchanged from the previous round.
+
+**Learner Activity:**
+
+1. The learner reads the chapter's own used-car values and watches the sim reproduce Round 0 (\$8,500), the peach refusal, and the final settled price (\$5,000).
+2. The learner is given the new peach/lemon values and types a predicted Round 0 price.
+3. The sim checks the value, then asks whether peach sellers would accept that price (yes/no).
+4. The sim checks that answer, then the learner types the final settled price.
+5. The sim checks the final value and shows the full unraveling sequence.
+
+**Feedback:** 3 sub-answers (Round 0 price, peach-participation yes/no, final price), fixed order, two attempts each. Correct: "Correct." with the value restated. Incorrect (first attempt): a hint specific to that sub-answer. After the second wrong attempt on any sub-answer, the correct value is shown. A running count "Correct: n of 3" is shown.
+
+**Starting State:** The chapter's own base case (peach \$10,000/\$12,000, lemon \$4,000/\$5,000) is shown fully worked through Round 0 and the final settled price of \$5,000. The question on screen before the challenge is "With peaches now worth \$20,000 to sellers and \$24,000 to buyers, and lemons worth \$8,000/\$10,000, where does this market end up?"
+
+**Chapter Anchors:** The chapter's Section 14.2 states Round 0 expected value = \$8,500, that peach sellers refuse to sell at \$8,500, and that the market settles at \$5,000 with only lemons trading; the sim's base-case demonstration reproduces all of these values exactly.
+</details>
+
 ---
 
 ## Key Terms

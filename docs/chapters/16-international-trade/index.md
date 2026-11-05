@@ -275,6 +275,53 @@ $$\text{Current Account Deficit} \iff \text{Capital/Financial Account Surplus} \
 !!! note "A trade deficit is not automatically bad"
     A trade deficit reflects foreigners investing in the country's assets (a capital inflow) at least as much as it reflects "losing" to foreign competition. The United States, for instance, has run persistent trade deficits for decades while also attracting enormous foreign investment into U.S. Treasury bonds, real estate, and businesses — a reflection of the U.S.'s attractiveness as a destination for capital, not simply a sign of economic weakness. Evaluating whether a particular trade deficit is a *problem* requires looking at *why* it's occurring (e.g., strong domestic investment opportunities attracting capital, versus persistent government borrowing) rather than treating the deficit figure alone as a verdict.
 
+#### Diagram: Comparative Advantage and Gains from Trade Explorer
+
+<details markdown="1">
+<summary>Comparative Advantage and Gains from Trade Explorer</summary>
+Type: microsim
+**sim-id:** comparative-advantage-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** demonstrate<br/>
+**Learning Objective:** The learner will demonstrate how post-trade consumption changes relative to each country's own autarky point at the chapter's 1-wheat-for-1-textile terms of trade, for a given trade volume.
+
+**Prerequisites:** absolute advantage, comparative advantage, opportunity cost, terms of trade, gains from trade (Sections 16.1–16.2).
+
+**Evidence of Mastery:** At trade volume V=100, the learner computes US consumption and Mexico consumption, and states for each country which good(s) show a gain relative to autarky. Correct when all four consumption values and both classifications match. Mastery requires all correct.
+
+**Misconceptions:** (1) Believing a country must gain in both goods whenever it trades — the chapter's own V=150 example shows the US gaining in only one good. (2) Forgetting that the traded amounts of wheat and textiles are equal at a 1:1 terms-of-trade rate. (3) Comparing post-trade consumption to the other country's autarky point instead of its own.
+
+**Instructional Rationale:** An Apply-level task needs the learner to execute the same consumption-after-trade calculation the chapter demonstrates, at a new trade volume, to see that each country's gain pattern follows directly from the model rather than being a coincidence of the chapter's chosen numbers.
+
+**Content:**
+
+The chapter's own numbers (Sections 16.1–16.2): US produces 8 wheat or 4 textiles per worker (100 workers); Mexico produces 2 wheat or 4 textiles per worker (100 workers). Opportunity costs: US 0.5 textiles/wheat; Mexico 2.0 textiles/wheat. Full specialization: US produces (800 wheat, 0 textiles); Mexico produces (0 wheat, 400 textiles). Autarky consumption: US (400 wheat, 200 textiles); Mexico (100 wheat, 200 textiles).
+
+| Trade volume V | US consumption (800−V, V) | US vs. autarky (400,200) | Mexico consumption (V, 400−V) | Mexico vs. autarky (100,200) |
+|---|---|---|---|---|
+| 150 (chapter's own example) | (650, 150) | Gains wheat only | (150, 250) | Gains both |
+| 100 (challenge) | (700, 100) | Gains wheat only | (100, 300) | Gains textiles only (wheat tied) |
+
+**Provenance:** From the chapter's own "A Numerical Example" (Section 16.1) and "Gains from trade, continued" (Section 16.2). The V=100 challenge is an illustrative alternative trade volume using the same production and terms-of-trade numbers.
+
+**Rules:** At the 1:1 terms of trade, US consumption = (800−V wheat, V textiles); Mexico consumption = (V wheat, 400−V textiles). Compare each coordinate to that country's own autarky point (US: 400 wheat, 200 textiles; Mexico: 100 wheat, 200 textiles) to classify gain, loss, or tie in each good. Trade volume V: min 0, max 400, step 10, default 150.
+
+**Learner Activity:**
+
+1. The learner watches the chapter's own V=150 case solved: US consumption (650,150) vs. autarky (400,200); Mexico consumption (150,250) vs. autarky (100,200).
+2. The learner sets the Trade Volume slider to V=100 and computes US and Mexico's post-trade consumption.
+3. The sim checks the four values, then asks the learner to classify each country's gain pattern.
+4. The sim checks the classification and plots both countries' consumption points relative to their own autarky points and production possibilities frontiers.
+
+**Feedback:** 1 scored challenge (4 consumption values + 2 classifications), two attempts. Correct: "Correct: US = (700, 100) — gains wheat only; Mexico = (100, 300) — gains textiles only." Incorrect (first attempt): "Recompute using US = (800−V, V) and Mexico = (V, 400−V), then compare each coordinate to that country's own autarky point." After the second wrong attempt, the full worked solution is shown. A result "Challenge correct: yes/no" is shown.
+
+**Starting State:** The Trade Volume slider is set to the chapter's own V=150, with both countries' autarky points, production possibilities frontiers, and post-trade consumption points plotted exactly as in Sections 16.1–16.2. The question on screen is "If only 100 units were traded instead of 150, would both countries still gain in both goods?"
+
+**Chapter Anchors:** The chapter's Section 16.2 states US autarky consumption (400 wheat, 200 textiles) and post-trade consumption (650 wheat, 150 textiles), and Mexico's autarky (100 wheat, 200 textiles) and post-trade (150 wheat, 250 textiles), at a 1:1 terms of trade with V=150; the sim's base-case demonstration reproduces all of these values exactly.
+</details>
+
 ---
 
 ## Key Terms

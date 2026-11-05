@@ -301,6 +301,49 @@ Most real-world utility regulation uses **average-cost pricing** as a practical 
 !!! note "Monopoly is not illegal; monopolizing is"
     U.S. antitrust law does not punish a firm simply for *becoming* a monopoly through superior products, lower costs, or business acumen. It targets firms that acquire or maintain monopoly power through anticompetitive conduct — exclusionary contracts, predatory pricing, or illegal mergers — rather than through competing on the merits.
 
+#### Diagram: Monopoly Profit and Deadweight Loss Explorer
+
+<details markdown="1">
+<summary>Monopoly Profit and Deadweight Loss Explorer</summary>
+Type: microsim
+**sim-id:** monopoly-deadweight-loss<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare the monopoly quantity and price to the competitive benchmark for a given linear demand and constant marginal cost, and identify the resulting deadweight-loss triangle.
+
+**Prerequisites:** monopoly marginal revenue, MR=MC profit maximization, deadweight loss (Sections 7.2–7.3, 7.5).
+
+**Evidence of Mastery:** For 1 additional challenge, the learner computes Q^M, P^M, profit, the competitive benchmark Q^C, and the deadweight loss. Correct when all five match exactly. Mastery requires all 5 correct.
+
+**Misconceptions:** (1) Setting P=MC (the competitive rule) instead of MR=MC to find the monopoly quantity. (2) Believing the monopolist charges a price equal to MC. (3) Using the demand curve itself as MR instead of deriving MR with twice the (negative) slope.
+
+**Instructional Rationale:** Analyze-level work requires holding two scenarios — monopoly and competitive — in view at once and comparing them, which is why all five related values are scored together.
+
+**Content:**
+
+Demonstration (the chapter's own base case, Section 7.3): demand P = 100 − 2Q, MR = 100 − 4Q, MC = \$20 (constant). Monopoly: Q^M=20, P^M=\$60, profit=\$800. Competitive benchmark (P=MC): Q^C=40. Deadweight loss = ½ × (Q^C − Q^M) × (P^M − MC) = ½ × 20 × 40 = \$400.
+
+Scored challenge: same demand, MC=\$40. Q^M=15, P^M=\$70, profit=\$450. Competitive benchmark Q^C=30. Deadweight loss = ½ × 15 × 30 = \$225.
+
+**Provenance:** The demonstration is the chapter's own "Worked Example" in Section 7.3. The competitive benchmark and deadweight-loss calculation extend that same model using the triangle formula introduced qualitatively in Section 7.5. The MC=\$40 challenge is an illustrative extension of the chapter's own demand curve.
+
+**Rules:** MR = 100 − 4Q (twice the slope of the inverse demand curve P = 100 − 2Q). Monopoly: set MR=MC, solve Q^M; P^M from the demand curve. Competitive benchmark: P=MC, solve Q^C. Deadweight loss = ½ × (Q^C − Q^M) × (P^M − MC). Marginal cost MC: min \$10, max \$50, step \$5, default \$20.
+
+**Learner Activity:**
+
+1. The learner watches the base case (MC=\$20) solved: MR=MC gives Q^M=20, demand gives P^M=\$60, profit=\$800; the competitive benchmark Q^C=40 is shown; the deadweight-loss triangle between Q^M and Q^C is shaded.
+2. The learner sets MC to \$40 and types Q^M, P^M, profit, Q^C, and deadweight loss.
+3. The sim checks all five values and redraws the triangle at the new MC.
+
+**Feedback:** 1 scored challenge (5 sub-values), two attempts. Correct: "Correct: Q^M=15, P^M=\$70, profit=\$450, Q^C=30, DWL=\$225." Incorrect (first attempt): "Re-derive MR from the demand curve first — it has twice the slope — then set MR=MC." After the second wrong attempt, the full worked solution is shown. A result "Challenge correct: yes/no" is shown.
+
+**Starting State:** The base case (MC=\$20) is shown fully worked, with demand, MR, and MC plotted, Q^M=20 and Q^C=40 marked, and the deadweight-loss triangle shaded. The question on screen is "If marginal cost rises to \$40, how do the monopoly outcome, the competitive benchmark, and the deadweight loss all change?"
+
+**Chapter Anchors:** The chapter's Section 7.3 worked example states Q^M=20, P^M=\$60, and profit=\$800 for demand P=100−2Q and MC=\$20; the sim's base-case demonstration reproduces this exactly.
+</details>
+
 ---
 
 ## Key Terms

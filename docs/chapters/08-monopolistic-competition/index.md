@@ -215,6 +215,51 @@ Whether monopolistic competition is "good" or "bad" for society, therefore, depe
 !!! tip "A note on 'wasteful' competition"
     It is tempting to call duplicated storefronts, overlapping product lines, and advertising "wasteful." But in a world where consumers demonstrably value choice — different flavors, different neighborhoods, different aesthetics — some of this apparent waste is actually consumers paying (via slightly higher prices) for variety they want.
 
+#### Diagram: Monopolistic Competition Long-Run Equilibrium Explorer
+
+<details markdown="1">
+<summary>Monopolistic Competition Long-Run Equilibrium Explorer</summary>
+Type: microsim
+**sim-id:** monopolistic-competition-long-run<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** differentiate<br/>
+**Learning Objective:** The learner will differentiate the short-run (positive-profit) and long-run (zero-profit) equilibria of a monopolistically competitive firm by computing profit and checking whether its demand curve lies above or exactly tangent to its ATC curve at the profit-maximizing quantity.
+
+**Prerequisites:** monopolistic competition, product differentiation, short-run profit maximization, zero-economic-profit long-run equilibrium, excess capacity (Sections 8.3–8.5).
+
+**Evidence of Mastery:** The learner computes profit for each of the 2 cases and classifies each as "attracts entry" (profit>0) or "long-run equilibrium" (profit=0). Correct when both the profit value (within ±\$1) and the classification match. Mastery is 2 of 2 correct.
+
+**Misconceptions:** (1) Believing zero economic profit means the firm earns nothing at all, rather than a normal return after opportunity costs. (2) Believing entry continues as long as profit was positive at the original price, rather than recognizing entry itself shifts each firm's demand curve inward. (3) Confusing this tangency (where ATC is still downward-sloping) with the perfect-competition condition P=minimum ATC.
+
+**Instructional Rationale:** An Analyze-level objective asks the learner to tell two related states apart by their defining feature — the sign of profit and the shape of the tangency — which requires computing and comparing rather than recalling a label.
+
+**Content:**
+
+| Case | Quantity | Price | ATC at that quantity | Profit |
+|---|---|---|---|---|
+| Short Run | 30 | \$25 | \$18 | \$210 |
+| Long Run | 22 | \$15 | \$15 | \$0 |
+
+**Provenance:** Illustrative. Both cases' quantities, prices, and ATC values are constructed round numbers chosen to produce a clean positive profit in the short run and exactly zero profit in the long run, consistent with the qualitative description in Sections 8.3–8.4.
+
+**Rules:** Profit = (P − ATC) × Q at the given profit-maximizing quantity. A case with profit > 0 is classified "attracts entry"; a case with profit = 0 is classified "long-run equilibrium." The Case selector is discrete: Short Run or Long Run, default Short Run.
+
+**Learner Activity:**
+
+1. The learner selects "Short Run" and sees demand curve D1, the point Q=30, P=\$25, with ATC(30)=\$18 marked; the learner computes profit and classifies the case.
+2. The sim checks the entry and shades the \$210 profit rectangle, noting that positive profit attracts entrants.
+3. The learner selects "Long Run" and sees the entry-adjusted demand curve D2, the point Q=22, P=\$15, ATC(22)=\$15; the learner computes profit and classifies the case.
+4. The sim checks the entry and shows the tangency point with no profit rectangle, noting this is the long-run equilibrium.
+
+**Feedback:** 2 cases, fixed order (Short Run then Long Run), two attempts each. Correct: "Correct: profit = \$<value>, this is the <classification>." Incorrect (first attempt): "Recompute profit as (P − ATC) × Q at the given quantity." After the second wrong attempt, the correct profit and classification are shown. A running count "Cases correct: n of 2" is shown.
+
+**Starting State:** The Short Run case is shown first, with D1, the point Q=30, and ATC(30)=\$18 marked, with no profit value filled in yet. The question on screen is "Is this firm making a profit, a loss, or breaking even — and what will happen to its demand curve next?"
+
+**Chapter Anchors:** none — the chapter's Sections 8.3–8.4 describe the short-run profit and long-run zero-profit cases qualitatively but state no specific numbers for either; the sim's values are illustrative.
+</details>
+
 ---
 
 ## Key Terms

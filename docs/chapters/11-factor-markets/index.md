@@ -304,6 +304,60 @@ Two leading explanations exist, and they are not mutually exclusive:
 
 Both views predict that educated workers earn more; they differ on *why*, with important policy implications for how much a given investment in education will raise economy-wide productivity versus merely reshuffling who gets which job.
 
+#### Diagram: Labor Market MRP Explorer
+
+<details markdown="1">
+<summary>Labor Market MRP Explorer</summary>
+Type: microsim
+**sim-id:** labor-market-mrp-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** determine<br/>
+**Learning Objective:** The learner will determine the profit-maximizing number of workers to hire at a given market wage, using the chapter's bakery MRP schedule and the hiring rule MRP=w.
+
+**Prerequisites:** marginal revenue product, marginal product of labor, the hiring rule MRP=w (Section 11.2).
+
+**Evidence of Mastery:** For 2 challenge wages, in fixed order, the learner determines L* using the hiring rule and the given table. Correct when it matches exactly. Mastery is 2 of 2 correct.
+
+**Misconceptions:** (1) Hiring only until MRP exactly equals the wage, rather than the largest L where MRP is still at or above the wage. (2) Using total product or marginal product directly as the hiring criterion instead of MRP (=MP×P). (3) Believing a lower wage means hiring fewer workers.
+
+**Instructional Rationale:** An Apply-level task needs the learner to execute the stated hiring rule on new wage values, mirroring the chapter's own two worked wage examples before independent practice.
+
+**Content:**
+
+The chapter's own bakery MRP schedule (Section 11.2), at output price P=\$4/loaf:
+
+| Workers (L) | Total Product | Marginal Product | MRP |
+|---|---|---|---|
+| 0 | 0 | — | — |
+| 1 | 20 | 20 | \$80 |
+| 2 | 36 | 16 | \$64 |
+| 3 | 48 | 12 | \$48 |
+| 4 | 56 | 8 | \$32 |
+| 5 | 60 | 4 | \$16 |
+| 6 | 60 | 0 | \$0 |
+
+Chapter's own worked wages: w=\$50 → hire 2 workers; w=\$32 → hire 4 workers. Scored challenges: w=\$70 → hire 1 worker; w=\$10 → hire 5 workers.
+
+**Provenance:** From the chapter's own "A Worked Numerical Example" and "Applying the hiring rule" in Section 11.2.
+
+**Rules:** Hire the largest L (0–6) such that MRP at L is greater than or equal to the wage w. MRP values are fixed exactly per the table above; the output price (\$4/loaf) is fixed throughout. Market wage w: min \$0, max \$90, step \$5, default \$50.
+
+**Learner Activity:**
+
+1. The learner sets the wage to the chapter's own \$50 example and watches the sim confirm L*=2.
+2. The learner sets the wage to \$70 and types the predicted L* before the sim reveals it.
+3. The sim checks the answer against the table and shows the MRP bars with the wage line marking the cutoff.
+4. The learner repeats for wage \$10.
+
+**Feedback:** 2 scored challenges, fixed order, two attempts each. Correct: "Correct: L* = <value> workers." Incorrect (first attempt): "Find the largest number of workers for which MRP is still at or above the wage line." After the second wrong attempt, the correct L* is shown with the MRP table highlighted. A running count "Challenges correct: n of 2" is shown.
+
+**Starting State:** The wage is set to \$50, the MRP bars (80, 64, 48, 32, 16, 0 for L=1–6) are plotted, and a horizontal wage line at \$50 is drawn with L*=2 marked as a worked demonstration. The question on screen before the first challenge is "If the wage rises to \$70, how many workers should the bakery hire?"
+
+**Chapter Anchors:** The chapter's Section 11.2 states that at w=\$50/day the bakery hires 2 workers, and at w=\$32/day it hires 4 workers, using the MRP values 80, 64, 48, 32, 16, 0 for L=1–6; the sim's table and both worked wage cases reproduce the chapter's values exactly.
+</details>
+
 ---
 
 ## Key Terms

@@ -207,6 +207,60 @@ Key pillars of U.S. antitrust policy:
 
 Competition policy reflects the same core trade-off this chapter has developed: a few large firms can achieve scale efficiencies unavailable to many small ones, but without a competitive check, they can also exercise the market power this chapter's models all describe — raising prices above, and restricting output below, the competitive levels that maximize total surplus.
 
+#### Diagram: Cournot Duopoly Best-Response Explorer
+
+<details markdown="1">
+<summary>Cournot Duopoly Best-Response Explorer</summary>
+Type: microsim
+**sim-id:** cournot-best-response<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** compute<br/>
+**Learning Objective:** The learner will compute each firm's best-response quantity in successive rounds using the chapter's Cournot best-response functions, and iterate toward the Cournot-Nash equilibrium.
+
+**Prerequisites:** Cournot model, best-response function, Cournot-Nash equilibrium (Section 9.2).
+
+**Evidence of Mastery:** Starting from Q1=0, the learner computes each of the first 4 best-response rounds in order, each checked to within ±0.5 units. Correct when all 4 rounds match. Mastery is 4 of 4 correct.
+
+**Misconceptions:** (1) Updating both firms simultaneously each round using each other's just-computed value, rather than alternating as the chapter's sequential process describes. (2) Believing the iteration converges to the competitive quantity (90) or the monopoly quantity (45) rather than 30,30. (3) Forgetting to divide by 2 in the best-response formula.
+
+**Instructional Rationale:** An Apply-level task needs the learner to execute the given best-response formula repeatedly on new inputs, which is why each round is scored as a distinct computation rather than only the final equilibrium.
+
+**Content:**
+
+The chapter's own numeric case (Section 9.2): P = 100 − (Q1+Q2), c = 10 for both firms, best responses Q1=(90−Q2)/2 and Q2=(90−Q1)/2.
+
+Iteration sequence starting from Q1=0, alternating firms:
+
+| Round | Firm responding | Input | Best response |
+|---|---|---|---|
+| 1 | Firm 2 responds to Q1=0 | Q1=0 | Q2 = 45 |
+| 2 | Firm 1 responds to Q2=45 | Q2=45 | Q1 = 22.5 |
+| 3 | Firm 2 responds to Q1=22.5 | Q1=22.5 | Q2 = 33.75 |
+| 4 | Firm 1 responds to Q2=33.75 | Q2=33.75 | Q1 = 28.125 |
+
+Equilibrium (after many rounds): Q1=Q2=30, total Q=60, P=\$40. Benchmarks: competitive Q=90 (P=MC=10); monopoly (collusive) Qm=45, P=\$55.
+
+**Provenance:** From the chapter's own "Numerical Cournot equilibrium" example in Section 9.2.
+
+**Rules:** Q1 = (90 − Q2)/2; Q2 = (90 − Q1)/2. Each round, the firm not currently moving holds its quantity fixed at its last chosen value while the other firm best-responds. Firm 1's starting quantity: min 0, max 90, step 5, default 0.
+
+**Learner Activity:**
+
+1. The learner sets Firm 1's starting quantity to 0 and presses "Step" to compute Round 1 (Firm 2's best response to Q1=0), typing the result before it is revealed.
+2. The sim checks the value (45) and plots the point.
+3. The learner presses "Step" for Round 2 (Firm 1's best response to Q2=45), types the result, and the sim checks it (22.5).
+4. The learner continues through Rounds 3 and 4, each checked against the sequence above.
+5. After 4 rounds, the learner can keep pressing "Step" to watch the sequence converge toward Q1=Q2=30, compared against the competitive (90) and monopoly (45) benchmarks marked on the same axis.
+
+**Feedback:** 4 rounds, fixed order, two attempts each. Correct: "Correct: Q = <value>." Incorrect (first attempt): "Apply the best-response formula to the other firm's most recently chosen quantity, then divide by 2." After the second wrong attempt, the correct value is shown. A running count "Rounds correct: n of 4" is shown.
+
+**Starting State:** Firm 1's quantity is set to 0, Firm 2's quantity is blank, and the two best-response lines are plotted on a Q1–Q2 graph with their intersection not yet marked. The question on screen is "If Firm 1 produces 0 units, what is Firm 2's best response?"
+
+**Chapter Anchors:** The chapter's Section 9.2 worked example states the Cournot-Nash equilibrium is Q1=Q2=30 (total Q=60, P=\$40), compared to the competitive outcome (Q=90) and the monopoly outcome (Qm=45, P=\$55); the sim's equilibrium and benchmarks reproduce these values exactly.
+</details>
+
 ---
 
 ## Key Terms

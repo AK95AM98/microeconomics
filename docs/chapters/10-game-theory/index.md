@@ -198,6 +198,61 @@ Game theory's tools recur across economics:
 !!! tip "The common thread"
     Every application above shares the same discipline: write down who moves, what they can do, and what they get — then find the strategy combination from which no one wants to unilaterally deviate (Nash equilibrium for simultaneous games; backward induction for sequential ones). This same discipline, applied to firms rather than individuals, is exactly what powered the oligopoly models of Chapter 9.
 
+#### Diagram: Prisoner's Dilemma Payoff Matrix
+
+<details markdown="1">
+<summary>Prisoner's Dilemma Payoff Matrix</summary>
+Type: diagram
+**sim-id:** prisoners-dilemma-payoff-matrix<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** differentiate<br/>
+**Learning Objective:** The learner will differentiate the Nash equilibrium cell from the three non-equilibrium cells in the chapter's prisoner's-dilemma payoff matrix by checking each player's best response in every cell.
+
+**Prerequisites:** payoff matrix, dominant strategy, Nash equilibrium, the prisoner's dilemma (Sections 10.1–10.4).
+
+**Evidence of Mastery:** After clicking all 4 cells, the learner selects the one Nash-equilibrium cell from the 4 options. Correct when the learner selects (Confess, Confess). Mastery within 2 attempts.
+
+**Misconceptions:** (1) Selecting (Silent, Silent) because it gives the best joint outcome, confusing "best for both together" with "a Nash equilibrium." (2) Believing more than one cell can be a Nash equilibrium in this particular game. (3) Checking only one player's incentive to deviate and skipping the other's.
+
+**Instructional Rationale:** An Analyze-level task requires breaking the matrix into its four cells and testing each one against the equilibrium definition individually, rather than recognizing the answer from the game's name.
+
+**Content:**
+
+The chapter's own payoff matrix, exactly as given in Section 10.4 (payoffs are years of prison avoided, higher is better):
+
+| | B: Confess | B: Stay Silent |
+|---|---|---|
+| A: Confess | (−5, −5) | (0, −10) |
+| A: Stay Silent | (−10, 0) | (−1, −1) |
+
+Best-response check shown when each cell is clicked:
+
+| Cell | Check | Conclusion |
+|---|---|---|
+| (Confess, Confess) | A: switching to Silent given B=Confess gives −10 < −5, worse. B: symmetric. | Nash equilibrium — neither wants to switch. |
+| (Confess, Silent) | B: switching to Confess given A=Confess gives −5 > −10, better. | Not an equilibrium — B would deviate. |
+| (Silent, Confess) | A: switching to Confess given B=Confess gives −5 > −10, better. | Not an equilibrium — A would deviate. |
+| (Silent, Silent) | A: switching to Confess given B=Silent gives 0 > −1, better. | Not an equilibrium — A would deviate, even though this is the best joint outcome. |
+
+**Provenance:** From the chapter's own "The classic prisoner's dilemma" example in Section 10.4.
+
+**Rules:** A cell is a Nash equilibrium if and only if neither player can improve their own payoff by unilaterally switching their own strategy while the other's strategy stays fixed. Confess strictly dominates Stay Silent for both players, so (Confess, Confess) is the unique Nash equilibrium (Section 10.2).
+
+**Learner Activity:**
+
+1. The learner clicks each of the 4 cells, in any order; each click reveals both players' payoffs and the best-response check for that cell.
+2. After all 4 cells have been checked at least once, the learner selects which single cell is the Nash equilibrium.
+3. The sim confirms the selection and highlights (Confess, Confess) as the unique Nash equilibrium, noting (Silent, Silent) as the better joint outcome that is not an equilibrium.
+
+**Feedback:** One graded selection, two attempts. Correct: "Correct: (Confess, Confess) is the Nash equilibrium — neither player can improve by switching alone." Incorrect (first attempt): "Check each cell again: does either player gain by switching their own choice while the other's stays the same?" After the second wrong attempt, the correct cell is highlighted with the full best-response reasoning for all 4 cells.
+
+**Starting State:** The 2x2 matrix is shown with row and column labels (A: Confess / Stay Silent; B: Confess / Stay Silent) but no payoffs visible until a cell is clicked. The question on screen is "Click each cell to reveal its payoffs, then find the one cell that is a Nash equilibrium."
+
+**Chapter Anchors:** The chapter's Section 10.4 states the payoff matrix exactly as (Confess,Confess)=(−5,−5), (Confess,Silent)=(0,−10), (Silent,Confess)=(−10,0), (Silent,Silent)=(−1,−1), and that (Confess,Confess) is the unique Nash equilibrium while (Silent,Silent) is the better but non-equilibrium outcome; the sim reproduces all of these values and conclusions exactly.
+</details>
+
 ---
 
 ## Key Terms

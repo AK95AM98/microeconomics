@@ -233,6 +233,56 @@ This is why the demand curve slopes downward for ordinary (non-Giffen) goods: at
 !!! note "From individual to market demand"
     The market demand curve is the **horizontal summation** of all individual consumers' demand curves — at each price, add up the quantity demanded by every consumer in the market.
 
+#### Diagram: Consumer Optimum Explorer
+
+<details markdown="1">
+<summary>Consumer Optimum Explorer</summary>
+Type: microsim
+**sim-id:** consumer-optimum-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** determine<br/>
+**Learning Objective:** The learner will determine the utility-maximizing bundle of two goods for a consumer with utility function U=XY, given income and prices, using the tangency condition.
+
+**Prerequisites:** utility function, marginal utility, budget constraint, indifference curve, marginal rate of substitution, consumer optimum, tangency condition (Sections 4.2, 4.5–4.7).
+
+**Evidence of Mastery:** For 3 challenge parameter sets, the learner computes X* and Y*, each checked to within ±0.1 units. Correct when both match. Mastery is 3 of 3 correct.
+
+**Misconceptions:** (1) Believing the optimum always splits income evenly between the two goods for any utility function — true here only because of the specific U=XY form. (2) Setting MUx/MUy = Py/Px (inverted) instead of Px/Py. (3) Forgetting to verify the budget constraint holds exactly at the reported bundle.
+
+**Instructional Rationale:** Apply-level work needs the learner to execute the tangency-condition procedure on new numbers after watching it demonstrated once, mirroring the chapter's own worked-example-then-practice structure.
+
+**Content:**
+
+Demonstration (not scored), reproducing the chapter's own Section 4.7 example: income I = \$120, Px = \$4, Py = \$6 → X* = 15, Y* = 10.
+
+Scored challenges, in fixed order:
+
+| # | Income I | Px | Py | X* | Y* |
+|---|---|---|---|---|---|
+| 1 | \$200 | \$5 | \$10 | 20 | 10 |
+| 2 | \$90 | \$3 | \$3 | 15 | 15 |
+| 3 | \$160 | \$8 | \$4 | 10 | 20 |
+
+**Provenance:** The demonstration is the chapter's own "Worked Example: Finding the Consumer Optimum" in Section 4.7. The 3 scored challenges are illustrative parameter sets using the same U=XY utility function and its closed-form solution; labeled illustrative.
+
+**Rules:** U = XY, so MUx = Y and MUy = X. Tangency: MUx/MUy = Px/Py. For this utility function the closed form is X* = I / (2·Px) and Y* = I / (2·Py) (each good receives half of income, a property specific to U=XY). Adjustable inputs: Income I, min \$60, max \$240, step \$10, default \$120; Px, min \$2, max \$10, step \$1, default \$4; Py, min \$2, max \$10, step \$1, default \$6.
+
+**Learner Activity:**
+
+1. The learner watches the demonstration (I=\$120, Px=\$4, Py=\$6) solved step by step: MUx=Y, MUy=X, tangency, substitution into the budget line, X*=15, Y*=10.
+2. The learner sets I, Px, Py to Challenge 1's values and types X* and Y*.
+3. The sim checks both values and shows the budget line and indifference curve shifting to the new optimum.
+4. The learner repeats for Challenges 2 and 3, in order.
+
+**Feedback:** 3 scored challenges, fixed order, two attempts each. Correct: "Correct: X* = <value>, Y* = <value>." Incorrect (first attempt): "Re-check the tangency condition MUx/MUy = Px/Py before substituting into the budget line." After the second wrong attempt, the worked bundle is shown and the challenge counts as missed. A running count "Challenges correct: n of 3" is shown.
+
+**Starting State:** The demonstration is shown first, with the budget line from (30,0) to (0,20) and the indifference curve XY=150 drawn tangent to it at (15,10). The question on screen before Challenge 1 is "If income rises to \$200, Px falls to \$5, and Py rises to \$10, where is the new consumer optimum?"
+
+**Chapter Anchors:** The chapter's Section 4.7 worked example states X*=15 and Y*=10 for U=XY, I=\$120, Px=\$4, Py=\$6; the sim's demonstration reproduces this exactly.
+</details>
+
 ---
 
 ## Key Terms

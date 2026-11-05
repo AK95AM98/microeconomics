@@ -283,6 +283,52 @@ Chapter 12 introduced the tragedy of the commons; here we examine concrete polic
 
 The common thread across all three tools is the same insight from Section 13.4's Coase theorem and Section 13.3's Pigouvian taxes: **assigning well-defined, enforceable property rights (or their price equivalent) forces users to internalize the costs they impose on others**, converting a tragedy-of-the-commons problem into one where private incentives align with social efficiency.
 
+#### Diagram: Pigouvian Tax Explorer
+
+<details markdown="1">
+<summary>Pigouvian Tax Explorer</summary>
+Type: microsim
+**sim-id:** pigouvian-tax-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** calculate<br/>
+**Learning Objective:** The learner will calculate the per-unit Pigouvian tax that restores the socially efficient quantity, given the chapter's private marginal cost, demand, and marginal external cost values.
+
+**Prerequisites:** private marginal cost, social marginal cost, marginal external cost, Pigouvian tax (Sections 13.1, 13.3).
+
+**Evidence of Mastery:** For 1 additional challenge, the learner computes the efficient quantity, the optimal tax, and the resulting tax revenue. Correct within ±0.5 units / ±\$1 for each of the 3 values. Mastery requires all 3 correct.
+
+**Misconceptions:** (1) Believing the tax should equal the full social marginal cost rather than just the external-cost wedge. (2) Forgetting that the unregulated market quantity does not depend on MEC at all, since the firm ignores the externality by definition. (3) Computing tax revenue using the market quantity instead of the efficient quantity actually traded once the tax is imposed.
+
+**Instructional Rationale:** An Apply-level task needs the learner to execute the chapter's own three-step procedure (find the market quantity, find the efficient quantity, set tax=MEC) on a new MEC value, reusing the exact method the chapter demonstrates.
+
+**Content:**
+
+The chapter's own steel-mill example (Sections 13.1, 13.3): private marginal cost PMC=2Q, demand (=social marginal benefit) P=100−Q, marginal external cost MEC=\$20/unit (constant).
+
+| MEC | Market Q (PMC=demand) | Efficient Q (SMC=demand) | Optimal tax t* | Tax revenue |
+|---|---|---|---|---|
+| \$20 (base case) | 33.3 | 26.7 | \$20 | \$534 |
+| \$30 (challenge) | 33.3 | 23.3 | \$30 | \$700 |
+
+**Provenance:** From the chapter's own "Worked example: a steel mill polluting a river" (Section 13.1) and "Setting the optimal tax" (Section 13.3). The MEC=\$30 challenge is an illustrative extension using the same PMC and demand curves.
+
+**Rules:** Market equilibrium: PMC = demand → 2Q = 100−Q. Efficient quantity: social marginal cost (PMC+MEC) = demand → 2Q+MEC = 100−Q. Optimal tax t* = MEC, since MEC is constant here (the chapter's own shortcut). Tax revenue = t* × efficient quantity. Marginal external cost MEC: min \$10, max \$40, step \$5, default \$20.
+
+**Learner Activity:**
+
+1. The learner watches the base case (MEC=\$20) solved step by step, reproducing the chapter's own numbers: market Q=33.3, efficient Q=26.7, t*=\$20, revenue=\$534.
+2. The learner sets MEC to \$30 and types the efficient quantity, the optimal tax, and the tax revenue.
+3. The sim checks all three values and shows the shifted PMC+t line intersecting demand at the new efficient quantity.
+
+**Feedback:** 1 scored challenge (3 sub-values), two attempts. Correct: "Correct: efficient Q ≈ 23.3, t* = \$30, revenue ≈ \$700." Incorrect (first attempt): "Recompute social marginal cost as PMC + MEC, then set it equal to demand; the tax equals MEC directly since MEC is constant here." After the second wrong attempt, the full worked solution is shown. A result "Challenge correct: yes/no" is shown.
+
+**Starting State:** MEC is set to \$20, with PMC, demand, and the social-marginal-cost line all plotted, market Q=33.3 and efficient Q=26.7 both marked, and the optimal tax t*=\$20 stated. The question on screen is "If the marginal external cost were \$30 instead of \$20, what tax restores efficiency — and how much revenue would it raise?"
+
+**Chapter Anchors:** The chapter's Sections 13.1 and 13.3 state market Q=33.3, efficient Q=26.7, t*=\$20, and tax revenue=\$534 for PMC=2Q, demand=100−Q, MEC=\$20; the sim's base-case demonstration reproduces all four values exactly.
+</details>
+
 ---
 
 ## Key Terms

@@ -204,6 +204,60 @@ Because $P = MC$ at every competitive firm, no reallocation of resources — pro
 !!! tip "Two distinct efficiency results, now connected"
     Chapter 2 showed that competitive equilibrium maximizes total surplus. This chapter shows *why*, by deriving the supply curve from cost-minimizing, profit-maximizing firms. The $P=MC$ condition is the single thread connecting individual firm behavior to market-wide efficiency.
 
+#### Diagram: Perfectly Competitive Firm Profit Maximizer
+
+<details markdown="1">
+<summary>Perfectly Competitive Firm Profit Maximizer</summary>
+Type: microsim
+**sim-id:** perfect-competition-profit-max<br/>
+**Library:** p5.js<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** determine<br/>
+**Learning Objective:** The learner will determine a price-taking firm's profit-maximizing output level and resulting profit or loss, given a market price and the firm's cost schedule, using the P=MC rule.
+
+**Prerequisites:** price taker, marginal revenue, marginal cost, the MR=MC profit-maximization rule, economic profit (Section 6.2–6.3).
+
+**Evidence of Mastery:** For 2 additional challenge prices, the learner determines Q* and the resulting profit using the given cost schedule. Correct when both match exactly. Mastery is 2 of 2 correct.
+
+**Misconceptions:** (1) Choosing the Q with the lowest TC rather than the Q where MC=P. (2) Stopping at the first Q with negative profit instead of continuing to the Q where profit is maximized. (3) Picking the smallest Q among tied profits instead of the largest.
+
+**Instructional Rationale:** Apply-level work requires executing the MC=P rule on new price values, with the base case worked once as a demonstration before scored practice.
+
+**Content:**
+
+The chapter's own cost schedule (Section 6.3):
+
+| Q | TC | MC | TR at \$40 | Profit at \$40 | TR at \$30 | Profit at \$30 | TR at \$45 | Profit at \$45 |
+|---|---|---|---|---|---|---|---|---|
+| 0 | \$50 | — | \$0 | −\$50 | \$0 | −\$50 | \$0 | −\$50 |
+| 1 | \$80 | \$30 | \$40 | −\$40 | \$30 | −\$50 | \$45 | −\$35 |
+| 2 | \$105 | \$25 | \$80 | −\$25 | \$60 | −\$45 | \$90 | −\$15 |
+| 3 | \$135 | \$30 | \$120 | −\$15 | \$90 | −\$45 | \$135 | \$0 |
+| 4 | \$170 | \$35 | \$160 | −\$10 | \$120 | −\$50 | \$180 | \$10 |
+| 5 | \$210 | \$40 | \$200 | −\$10 | \$150 | −\$60 | \$225 | \$15 |
+| 6 | \$255 | \$45 | \$240 | −\$15 | \$180 | −\$75 | \$270 | \$15 |
+
+At P=\$40: Q*=5, profit=−\$10 (the chapter's own base case). At P=\$30: Q*=3, profit=−\$45. At P=\$45: Q*=6, profit=\$15.
+
+**Provenance:** The TC and MC columns and the P=\$40 base case are the chapter's own "Worked Example" in Section 6.3. The \$30 and \$45 challenges reuse the same TC schedule with TR recomputed at the new price; labeled illustrative.
+
+**Rules:** The profit-maximizing Q* is the largest Q for which MC(Q) ≤ P. Profit(Q) = P×Q − TC(Q). If multiple Q give the same maximum profit, report the largest such Q, matching the chapter's own convention. Market price P: min \$20, max \$50, step \$5, default \$40.
+
+**Learner Activity:**
+
+1. The learner watches the base case (P=\$40) solved: the sim steps through Q=0 to 6, marking profit at each row, and highlights Q*=5 as the largest Q with MC≤P.
+2. The learner sets the price to \$30 and types the predicted Q* and profit.
+3. The sim checks both values against the table and reveals the correct answer.
+4. The learner repeats for price \$45.
+
+**Feedback:** 2 scored challenges, fixed order, two attempts each. Correct: "Correct: Q* = <value>, profit = <value>." Incorrect (first attempt): "Find the largest Q where MC is still at or below the price." After the second wrong attempt, the correct Q* and profit are shown with the row-by-row reasoning. A running count "Challenges correct: n of 2" is shown.
+
+**Starting State:** The base case (P=\$40) is shown fully worked, with Q*=5 highlighted and the −\$10 loss area shaded between TC and TR. The question on screen before the first challenge is "If the market price drops to \$30, what is the new profit-maximizing quantity and profit?"
+
+**Chapter Anchors:** The chapter's Section 6.3 worked example states that at P*=\$40 the firm maximizes profit at Q*=5 with a profit of −\$10; the sim's base-case demonstration reproduces this exactly.
+</details>
+
 ---
 
 ## Key Terms
